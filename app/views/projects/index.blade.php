@@ -24,10 +24,18 @@ Projects Page
 
 
 @section('content')
-<br /><br />
+<br />
 <div class="row">
     <div class="col-md-12 text-center">
-        Projects
+        <h1>Projects (links will be working soon)</h1>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-12 text-center">
+        @foreach($projects as $project)
+        <a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
+        @endforeach
     </div>
 </div>
 @stop

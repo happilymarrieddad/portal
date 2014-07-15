@@ -73,7 +73,11 @@ class UserController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('user.show')->with('session', $session)->with('name', $name);
+        $user = User::find(Auth::user()->id);
+
+        $role = Role::find($user->type);
+
+        return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type );
 	}
 
 

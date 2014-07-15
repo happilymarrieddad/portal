@@ -9,7 +9,7 @@ Home Page
 
 
 @section('body')
-<body style="background-color: black">
+<body>
 @stop
 
 @section('nav')
@@ -25,15 +25,15 @@ Home Page
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center"><br />
-            <span class="text-warning" style="font-size:48px;">Segfault</span><br />
-            <span class="text-default" style="font-size: 24px;">Where 2 + 2 = 5 .... for very large values of 2</span>
+            <span style="font-size:48px; color:orange; font-family: Arial">Segfault</span><br />
+            <span class="text-default" style="font-size: 24px; font-family: fantasy">Where 2 + 2 = 5 .... for very large values of 2</span>
         </div>
     </div><br /><br /><br />
     <div class="row">
         <div class="col-md-12">
             <div style="border-radius: 10px; background-color: whitesmoke; height: 500px; overflow-y: scroll; padding:25px;">
 
-                <table class="table table-vertical">
+                <table class="table table-bordered">
                     <legend><h1>News</h1></legend>
                     <tbody>
                     @foreach($lists->reverse() as $list)

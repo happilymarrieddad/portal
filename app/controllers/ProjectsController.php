@@ -19,7 +19,9 @@ class ProjectsController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('projects.index')->with('session', $session)->with('name', $name);
+        $projects = Project::all();
+
+        return View::make('projects.index')->with('session', $session)->with('name', $name)->with('projects', $projects);
 	}
 
 

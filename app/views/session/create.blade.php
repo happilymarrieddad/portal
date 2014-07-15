@@ -29,7 +29,7 @@ Login Page
                     </tr>
                     <tr class="form-group">
                         <td>
-                            <button type="submit" class="btn btn-md btn-primary">Login</button>&nbsp;&nbsp;&nbsp;<a href="create" style="color:red">Register a new account</a>
+                            <button type="submit" class="btn btn-md btn-primary">Login</button>&nbsp;&nbsp;&nbsp;<a href="user/create" style="color:red">Register a new account</a>
                         </td>
                     </tr>
                     <tr>

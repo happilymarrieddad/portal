@@ -33,8 +33,10 @@ Route::resource('sessions', 'SessionController', ['only'=>['create', 'store', 'd
 
 // User Routes
 Route::get('user/show', 'UserController@show');
-Route::get('create', 'UserController@create');
-Route::resource('user', 'UserController', ['only'=>['show', 'create', 'store', 'destroy']]);
+Route::get('user/edit', 'UserController@edit');
+Route::post('user/update', 'UserController@update');
+Route::get('user/create', 'UserController@create');
+Route::resource('user', 'UserController', ['only'=>['show', 'create', 'store', 'destroy', 'edit', 'update']]);
 
 
 // Catch All Route
