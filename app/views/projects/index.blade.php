@@ -1,0 +1,32 @@
+@extends('layouts.default')
+
+@section('title')
+Projects Page
+@endsection
+
+
+@section('links')
+@endsection
+
+
+@section('nav')
+<li><a href="/home">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/tutorials">Tutorials</a></li>
+<li class="active"><a href="/projects">Projects</a></li>
+@endsection
+
+
+@section('content')
+<br /><br />
+<div class="row">
+    <div class="col-md-12 text-center">
+        Projects
+    </div>
+</div>
+@endsection
+
+
+@section('scripts')
+<script src="js/projects.js" type="application/javascript"></script>
+@endsection
