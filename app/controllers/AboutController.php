@@ -17,7 +17,7 @@ class AboutController extends \BaseController {
 	{
         $session = '<li><a href="logout">Logout</a></li>';
 
-        $name = Auth::user()->first_name ?: Auth::user()->email;
+        $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
         return View::make('about.index')->with('session', $session)->with('name', $name);
 	}

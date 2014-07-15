@@ -19,7 +19,7 @@ class HomeController extends \BaseController {
 
         if (Auth::check())
         {
-            $name = Auth::user()->first_name ?: Auth::user()->email;
+            $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
             $session = '<li><a href="logout">Logout</a></li>';
         }

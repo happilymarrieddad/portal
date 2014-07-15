@@ -17,12 +17,9 @@
             <ul class="nav navbar-nav">
                 @yield('nav')
             </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-2 col-md-offset-1">
-            <span style="color:deepskyblue">{{ $name }}</span>
+            <p class="navbar-text navbar-right">
+                {{ $name }}
+            </p>
         </div>
     </div>
 

@@ -67,9 +67,13 @@ class UserController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show()
 	{
-		//
+        $session = '<li><a href="logout">Logout</a></li>';
+
+        $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
+
+        return View::make('user.show')->with('session', $session)->with('name', $name);
 	}
 
 

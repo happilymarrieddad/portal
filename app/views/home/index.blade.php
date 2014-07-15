@@ -36,7 +36,7 @@ Home Page
                 <table class="table table-vertical">
                     <legend><h1>News</h1></legend>
                     <tbody>
-                    @foreach($lists as $list)
+                    @foreach($lists->reverse() as $list)
                         <tr><td><h4 style="color: orange">[{{$list->id}}] - {{$list->type}} - {{$list->message}}</h4></td></tr>
                     @endforeach
                     </tbody>

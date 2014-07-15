@@ -32,7 +32,7 @@ Route::resource('sessions', 'SessionController', ['only'=>['create', 'store', 'd
 
 
 // User Routes
-Route::get('user', 'UserController@show');
+Route::get('user/show', 'UserController@show');
 Route::get('create', 'UserController@create');
 Route::resource('user', 'UserController', ['only'=>['show', 'create', 'store', 'destroy']]);
 
