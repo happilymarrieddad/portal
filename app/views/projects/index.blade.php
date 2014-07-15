@@ -2,11 +2,16 @@
 
 @section('title')
 Projects Page
-@endsection
+@stop
 
 
 @section('links')
-@endsection
+@stop
+
+
+@section('body')
+<body class="" style="">
+@stop
 
 
 @section('nav')
@@ -14,7 +19,8 @@ Projects Page
 <li><a href="/about">About</a></li>
 <li><a href="/tutorials">Tutorials</a></li>
 <li class="active"><a href="/projects">Projects</a></li>
-@endsection
+{{ $session }}
+@stop
 
 
 @section('content')
@@ -24,9 +30,9 @@ Projects Page
         Projects
     </div>
 </div>
-@endsection
+@stop
 
 
 @section('scripts')
 <script src="js/projects.js" type="application/javascript"></script>
-@endsection
+@stop

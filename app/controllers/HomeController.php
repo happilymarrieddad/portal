@@ -2,6 +2,11 @@
 
 class HomeController extends \BaseController {
 
+    public function __construct()
+    {
+        $this->beforeFilter('auth', array('only'=>array('')));
+
+    }
     /**
      * Display a listing of the resource.
      *
@@ -9,7 +14,23 @@ class HomeController extends \BaseController {
      */
     public function index()
     {
-        return View::make('home.index');
+
+        $name = '';
+
+        if (Auth::check())
+        {
+            $name = Auth::user()->first_name ?: Auth::user()->email;
+
+            $session = '<li><a href="logout">Logout</a></li>';
+        }
+        else
+        {
+            $session = '<li></li><li><a href="login">Login</a></li>';
+        }
+
+        $lists = News::all();
+
+        return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name);
     }
 
 

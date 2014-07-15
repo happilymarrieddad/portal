@@ -2,6 +2,12 @@
 
 class AboutController extends \BaseController {
 
+    public function __construct()
+    {
+        $this->beforeFilter('auth', array('only'=>array('index')));
+
+    }
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -9,7 +15,11 @@ class AboutController extends \BaseController {
 	 */
 	public function index()
 	{
-        return View::make('about.index');
+        $session = '<li><a href="logout">Logout</a></li>';
+
+        $name = Auth::user()->first_name ?: Auth::user()->email;
+
+        return View::make('about.index')->with('session', $session)->with('name', $name);
 	}
 
 

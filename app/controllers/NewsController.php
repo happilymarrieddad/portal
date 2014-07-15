@@ -1,12 +1,6 @@
 <?php
 
-class ProjectsController extends \BaseController {
-
-    public function __construct()
-    {
-        $this->beforeFilter('auth', array('only'=>array('index')));
-
-    }
+class NewsController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -15,11 +9,7 @@ class ProjectsController extends \BaseController {
 	 */
 	public function index()
 	{
-        $session = '<li><a href="logout">Logout</a></li>';
-
-        $name = Auth::user()->first_name ?: Auth::user()->email;
-
-        return View::make('projects.index')->with('session', $session)->with('name', $name);
+		//
 	}
 
 

@@ -2,6 +2,12 @@
 
 class UserController extends \BaseController {
 
+    public function __construct()
+    {
+        $this->beforeFilter('auth', array('only'=>array('index', 'edit', 'show', 'update', 'destroy')));
+
+    }
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -20,7 +26,9 @@ class UserController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+        $session = '<li></li><li><a href="login">Login</a></li>';
+
+		return View::make('user.create')->with('session', $session)->with('name', '')->with('error', '');
 	}
 
 
@@ -31,7 +39,25 @@ class UserController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$input = Input::all();
+
+        if($input['password'] != $input['cpassword'])
+        {
+            $session = '<li></li><li><a href="login">Login</a></li>';
+
+            return View::make('user.create')->with('session', $session)->with('name', '')->with('error', 'Passwords must match.');
+        }
+
+        $user = new User;
+        $user->first_name = $input['fname'];
+        $user->last_name = $input['lname'];
+        $user->email = $input['email'];
+        $user->type = 2;
+        $user->password = Hash::make($input['password']);
+        $user->save();
+
+        return Redirect::intended('login');
+
 	}
 
 
@@ -74,12 +100,15 @@ class UserController extends \BaseController {
 	/**
 	 * Remove the specified resource from storage.
 	 *
-	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-		//
+
+        User::where('email', '=', Auth::user()->email)->first()->delete();
+
+
+        return Redirect::intended('home');
 	}
 
 

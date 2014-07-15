@@ -2,6 +2,11 @@
 
 class TutorialsController extends \BaseController {
 
+    public function __construct()
+    {
+        $this->beforeFilter('auth', array('only'=>array('index')));
+
+    }
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -9,7 +14,11 @@ class TutorialsController extends \BaseController {
 	 */
 	public function index()
 	{
-        return View::make('tutorials.index');
+        $session = '<li><a href="logout">Logout</a></li>';
+
+        $name = Auth::user()->first_name ?: Auth::user()->email;
+
+        return View::make('tutorials.index')->with('session', $session)->with('name', $name);
 	}
 
 
