@@ -5,11 +5,3 @@ div.border
     padding:25px;
     background-color: whitesmoke;
 }
-
-div.image
-{
-    background-image: url('images/');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height:300px;
-}

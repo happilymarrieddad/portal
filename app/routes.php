@@ -39,5 +39,10 @@ Route::get('user/create', 'UserController@create');
 Route::resource('user', 'UserController', ['only'=>['show', 'create', 'store', 'destroy', 'edit', 'update']]);
 
 
+// Article Routes
+Route::get('article/show', 'ArticleController@show');
+Route::resource('article', 'ArticleController');
+
+
 // Catch All Route
 Route::any( '(.*)', 'HomeController@index');

@@ -1,12 +1,7 @@
 <?php
 
-class TutorialsController extends \BaseController {
+class ArticleController extends \BaseController {
 
-    public function __construct()
-    {
-        $this->beforeFilter('auth', array('only'=>array('index')));
-
-    }
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -14,17 +9,7 @@ class TutorialsController extends \BaseController {
 	 */
 	public function index()
 	{
-        $session = '<li><a href="logout">Logout</a></li>';
-
-        $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
-
-        $ce = Article::where('type', '=', 'Computer Engineering')->get();
-        $se = Article::where('type', '=', 'Software Engineering')->get();
-
-        if((Auth::user()->type) == 4) $create = '<a href="tutorials/create" style="font-size:12px;color:green;"></a>';
-        else $create = 'dfhgret';
-
-        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('create', $create);
+		//
 	}
 
 
@@ -56,9 +41,17 @@ class TutorialsController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show()
 	{
-		//
+		try
+        {
+
+            return [1, Article::find(Input::get('id'))->article];
+
+        }catch(Exception $e)
+        {
+            return [0, 'ERROR: ' . $e->getMessage() . ' at line ' . $e->getLine()];
+        }
 	}
 
 
