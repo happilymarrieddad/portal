@@ -154,6 +154,24 @@ $(function () {
             tell('server.get', ['article/show',map,res]);
         });
 
+        list.se.bind('click', function(e) {
+            e.preventDefault();
+            tell('alert.loading', 'Loading article ' + $(this).html());
+            function res(res) {
+                if(!res[0]) tell('alert.error', res[1]);
+                else
+                {
+                    article.html(res[1]);
+                    tell('alert.success', 'Article loaded successfully!');
+                }
+            }
+            var map = {
+                id : $(this).data('id'),
+                name : $(this).html()
+            };
+            tell('server.get', ['article/show',map,res]);
+        });
+
 
 
     });
@@ -167,5 +185,5 @@ $(function () {
 // Startup
 $(function () {
     tell('start.bind');
-
+    tell('alert.success', 'SPA loaded successfully!');
 });

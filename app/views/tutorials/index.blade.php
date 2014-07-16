@@ -35,7 +35,8 @@ Tutorials Page
 <br />
 <div class="row" id="title">
     <div class="col-md-12">
-        <h1 class="text-center">Tutorials</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $create }}<br /><hr><br />
+        <h1 class="text-center">Tutorials</h1>
+        <h6 class="text-center"><a href="article/create"><span style="color:green; font-size: 8px;">publish tutorial</span></a></h6><hr><br />
 
         <div class="panel col-md-3" style="position:fixed; top:270px; left:35px; padding:20px; border-radius: 10px; background-color: whitesmoke">
             <div class="panel-group" id="accordion">
@@ -77,9 +78,11 @@ Tutorials Page
                 </div>
             </div>
             <div class="panel">
-                <h5>Resources</h5>
+                <h5>Resources &nbsp;&nbsp;&nbsp;<a href="#"><span style="color:green; font-size: 8px;">add resource</span></a></h5>
                 <ul>
-                    <li><a href="http://www.amazon.com/Absolute-5th-Edition-Walter-Savitch/dp/013283071X/ref=sr_1_1?ie=UTF8&qid=1405541232&sr=8-1&keywords=absolute+c%2B%2B&dpPl=1" target="_blank">Absolute C++</a></li>
+                    @foreach($books as $book)
+                    <li><a href="{{ $book->link }}" target="_blank">{{ $book->name }}</a></li>
+                    @endforeach
                 </ul>
             </div>
         </div>

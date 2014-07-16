@@ -21,13 +21,11 @@ Route::get('/Tutorials', 'TutorialsController@index');
 Route::resource('tutorials', 'TutorialsController', ['only'=>['index']]);
 
 
-// News Routes
-Route::resource('news', 'NewsController', ['only'=>['']]);
-
-
 // Session Routes
 Route::get('login', 'SessionController@create');
 Route::get('logout', 'SessionController@destroy');
+Route::get('Login', 'SessionController@create');
+Route::get('Logout', 'SessionController@destroy');
 Route::resource('sessions', 'SessionController', ['only'=>['create', 'store', 'destroy']]);
 
 
@@ -36,12 +34,13 @@ Route::get('user/show', 'UserController@show');
 Route::get('user/edit', 'UserController@edit');
 Route::post('user/update', 'UserController@update');
 Route::get('user/create', 'UserController@create');
-Route::resource('user', 'UserController', ['only'=>['show', 'create', 'store', 'destroy', 'edit', 'update']]);
+Route::resource('user', 'UserController', ['only'=>['show', 'store', 'destroy', 'create']]);
 
 
 // Article Routes
 Route::get('article/show', 'ArticleController@show');
-Route::resource('article', 'ArticleController');
+Route::get('article/create', 'ArticleController@create');
+Route::resource('articles', 'ArticleController', ['only'=>['create', 'show', 'store']]);
 
 
 // Catch All Route

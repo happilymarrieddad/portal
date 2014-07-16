@@ -20,11 +20,9 @@ class TutorialsController extends \BaseController {
 
         $ce = Article::where('type', '=', 'Computer Engineering')->get();
         $se = Article::where('type', '=', 'Software Engineering')->get();
+        $books = Book::all();
 
-        if((Auth::user()->type) == 4) $create = '<a href="tutorials/create" style="font-size:12px;color:green;"></a>';
-        else $create = 'dfhgret';
-
-        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('create', $create);
+        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('books', $books);
 	}
 
 

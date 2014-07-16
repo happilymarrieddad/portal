@@ -4,19 +4,9 @@ class UserController extends \BaseController {
 
     public function __construct()
     {
-        $this->beforeFilter('auth', array('only'=>array('index', 'edit', 'show', 'update', 'destroy')));
+        $this->beforeFilter('auth', array('only'=>array('show', 'store', 'destroy', 'create')));
 
     }
-
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-		//
-	}
 
 
 	/**
@@ -78,30 +68,6 @@ class UserController extends \BaseController {
         $role = Role::find($user->type);
 
         return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type );
-	}
-
-
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function edit($id)
-	{
-		//
-	}
-
-
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function update($id)
-	{
-		//
 	}
 
 
