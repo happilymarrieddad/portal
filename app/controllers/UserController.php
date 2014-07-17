@@ -4,7 +4,7 @@ class UserController extends \BaseController {
 
     public function __construct()
     {
-        $this->beforeFilter('auth', array('only'=>array('show', 'store', 'destroy')));
+        $this->beforeFilter('auth', array('only'=>array('show', 'destroy')));
 
     }
 

@@ -34,7 +34,7 @@ class SessionController extends \BaseController {
             'password' => $input['password']
         ]);
 
-        if($attempt) return Redirect::intended('home');
+        if($attempt) return Redirect::route('home.index');
 
         return View::make('session.create')->with('msg', '<span style="color: red">Login failed... please verify credentials</span>');
 

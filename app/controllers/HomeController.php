@@ -2,11 +2,6 @@
 
 class HomeController extends \BaseController {
 
-    public function __construct()
-    {
-        $this->beforeFilter('auth', array('only'=>array('')));
-
-    }
     /**
      * Display a listing of the resource.
      *
