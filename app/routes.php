@@ -40,7 +40,7 @@ Route::resource('user', 'UserController', ['only'=>['show', 'store', 'destroy', 
 // Article Routes
 Route::get('article/show', 'ArticleController@show');
 Route::get('article/create', 'ArticleController@create');
-Route::resource('articles', 'ArticleController', ['only'=>['create', 'show', 'store']]);
+Route::resource('article', 'ArticleController', ['only'=>['create', 'show', 'store']]);
 
 
 // Catch All Route
