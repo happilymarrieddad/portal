@@ -1,6 +1,6 @@
 function update()
 {
-    var mb = $('#select-mb option:selected').val().toString();
+    var mb = $('#select-mb option:selected').val();
     var psu = $('#select-psu option:selected').val();
     var ram = $('#select-ram option:selected').val();
     var drive = $('#select-drive option:selected').val();
@@ -8,5 +8,5 @@ function update()
     var cpu = $('#select-cpu option:selected').val();
     var hdd = $('#select-hdd option:selected').val();
 
-    $('#builder-price').text();
+    $('#builder-price').text((mb+psu+ram+drive+monitor+cpu+hdd)/100);
 }
