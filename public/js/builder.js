@@ -1,6 +1,6 @@
 function update()
 {
-    var mb = $('#select-mb option:selected').val();
+    var mb = $('#select-mb option:selected').val().toString();
     var psu = $('#select-psu option:selected').val();
     var ram = $('#select-ram option:selected').val();
     var drive = $('#select-drive option:selected').val();
@@ -9,9 +9,8 @@ function update()
     var hdd = $('#select-hdd option:selected').val();
 
     var mb2 = mb.split('#');
-    var mb3 = mb2[0];
 
-    alert(mb3);
+    alert(mb2);
 
     $('#builder-price').text();
 }
