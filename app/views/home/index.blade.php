@@ -26,7 +26,8 @@ Home Page
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center"><br />
             <span style="font-size:48px; color:orange; font-family: Arial">Segfault</span><br />
-            <span class="text-default" style="font-size: 24px; font-family: fantasy">Where 2 + 2 = 5 .... for very large values of 2</span>
+            <span class="text-default" style="font-size: 24px; font-family: fantasy">2 + 2 = 5 .... for very large values of 2</span><br />
+            <span>Total Users: {{ $i }}</span>
         </div>
     </div><br /><br /><br />
     <div class="row">

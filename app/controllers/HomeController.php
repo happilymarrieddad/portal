@@ -25,7 +25,15 @@ class HomeController extends \BaseController {
 
         $lists = News::all();
 
-        return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name);
+
+        $users = User::all();
+        $i = 0;
+        foreach($users as $user)
+        {
+            $i++;
+        }
+
+        return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name)->with('i', $i);
     }
 
 }

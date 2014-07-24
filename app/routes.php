@@ -14,6 +14,10 @@ Route::resource('about', 'AboutController', ['only'=>['index']]);
 // Project Routes
 Route::get('/Projects', 'ProjectsController@index');
 Route::resource('projects', 'ProjectsController', ['only'=>['index']]);
+/// Computer Builder
+Route::get('/Builder', 'BuilderController@create');
+Route::get('/builder', 'BuilderController@create');
+Route::resource('builder', 'BuilderController', ['only'=>['create', 'store']]);
 
 
 // Tutorial Routes
@@ -43,5 +47,11 @@ Route::get('article/create', 'ArticleController@create');
 Route::resource('article', 'ArticleController', ['only'=>['create', 'show', 'store']]);
 
 
+
+
+
+
 // Catch All Route
-Route::any( '(.*)', 'HomeController@index');
+App::missing(function() {
+    return Redirect::to('/');
+});

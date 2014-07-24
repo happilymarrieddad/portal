@@ -4,7 +4,7 @@ class ArticleController extends \BaseController {
 
     public function __construct()
     {
-        $this->beforeFilter('auth', array('only'=>array('create', 'show', 'store')));
+        $this->beforeFilter('auth', array('only'=>array('create', 'show', 'store', 'edit', 'update', 'destroy')));
 
     }
 
@@ -65,4 +65,44 @@ class ArticleController extends \BaseController {
             return [0, 'ERROR: ' . $e->getMessage() . ' at line ' . $e->getLine()];
         }
 	}
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function edit($id)
+    {
+        $session = '<li><a href="logout">Logout</a></li>';
+
+        $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
+
+        $article = Article::find($id);
+
+        return View::make('article.edit')->with('session', $session)->with('name', $name);
+    }
+
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function update($id)
+    {
+        //
+    }
+
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
 }

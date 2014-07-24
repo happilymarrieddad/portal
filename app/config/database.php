@@ -63,6 +63,17 @@ return array(
 			'prefix'    => '',
 		),
 
+        'builder' => array(
+            'driver'    => 'mysql',
+            'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
+            'database'  => getenv('DB_BUILDER'),
+            'username'  => getenv('DB_USERNAME'),
+            'password'  => getenv('DB_PASSWORD'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
