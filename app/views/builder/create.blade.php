@@ -69,6 +69,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
+                        @foreach($cpu as $cpu)
+                        <option value="{{ $cpu->price }}#{{ $cpu->socket }}">${{ number_format(($cpu->price / 100), 2) }} - {{ $cpu->brand }} {{ $cpu->speed }} {{ $cpu->model }} {{ $cpu->socket }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -85,8 +88,8 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-                        @foreach($cpu as $cpu)
-                        <option value="{{ $cpu->price }}#{{ $cpu->socket }}">${{ number_format(($cpu->price / 100), 2) }} - {{ $cpu->brand }} {{ $cpu->speed }} {{ $cpu->model }} {{ $cpu->socket }} </option>
+                        @foreach($ram as $ram)
+                        <option value="{{ $ram->price }}">${{ number_format(($ram->price / 100), 2) }} - {{ $ram->brand }} {{ $ram->size }} {{ $ram->speed }} CAS-{{ $ram->CAS }}  {{ $ram->model }} </option>
                         @endforeach
                     </select>
                 </div>
@@ -104,7 +107,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-
+                        @foreach($monitor as $monitor)
+                        <option value="{{ $monitor->price }}">${{ number_format(($monitor->price / 100), 2) }} - {{ $monitor->brand }} {{ $monitor->size }}in {{ $monitor->model }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -121,7 +126,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-
+                        @foreach($hdd as $hdd)
+                        <option value="{{ $hdd->price }}">${{ number_format(($hdd->price / 100), 2) }} - {{ $hdd->brand }} {{ $hdd->type }} {{ $hdd->size }}in {{ $hdd->model }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -138,7 +145,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-
+                        @foreach($drive as $drive)
+                        <option value="{{ $drive->price }}">${{ number_format(($drive->price / 100), 2) }} - {{ $drive->brand }} {{ $drive->type }} {{ $drive->speed }}x {{ $drive->model }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -155,7 +164,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-
+                        @foreach($psu as $psu)
+                        <option value="{{ $psu->price }}">${{ number_format(($psu->price / 100), 2) }} - {{ $psu->brand }} {{ $psu->watts }}W {{ $psu->model }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -172,7 +183,9 @@
                 <div class="panel-body">
                     <select>
                         <option value="0" selected></option>
-
+                        @foreach($case as $case)
+                        <option value="{{ $case->price }}">${{ number_format(($case->price / 100), 2) }} - {{ $case->brand }} {{ $case->type }}W {{ $case->model }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
