@@ -27,10 +27,10 @@ class HomeController extends \BaseController {
 
 
         $users = User::all();
-        $i = 0;
+        $i = '';
         foreach($users as $user)
         {
-            $i++;
+            $i .= $user->email . ' \ ';
         }
 
         return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name)->with('i', $i);
