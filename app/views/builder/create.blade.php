@@ -49,6 +49,7 @@
             <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
                     <select>
+                    <option value="0" selected></option>
                     @foreach($mb as $mb)
                     <option value="{{ $mb->price }}#{{ $mb->socket }}">${{ number_format(($mb->price / 100), 2) }} - {{ $mb->brand }} {{ $mb->model }} {{ $mb->socket }} </option>
                     @endforeach
@@ -67,7 +68,7 @@
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
-
+                        <option value="0" selected></option>
                     </select>
                 </div>
             </div>
@@ -83,7 +84,10 @@
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
-
+                        <option value="0" selected></option>
+                        @foreach($cpu as $cpu)
+                        <option value="{{ $cpu->price }}#{{ $cpu->socket }}">${{ number_format(($cpu->price / 100), 2) }} - {{ $cpu->brand }} {{ $cpu->speed }} {{ $cpu->model }} {{ $cpu->socket }} </option>
+                        @endforeach
                     </select>
                 </div>
             </div>
@@ -99,6 +103,7 @@
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
+                        <option value="0" selected></option>
 
                     </select>
                 </div>
@@ -115,6 +120,7 @@
             <div id="collapseFive" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
+                        <option value="0" selected></option>
 
                     </select>
                 </div>
@@ -131,6 +137,7 @@
             <div id="collapseSix" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
+                        <option value="0" selected></option>
 
                     </select>
                 </div>
@@ -147,6 +154,7 @@
             <div id="collapseSeven" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
+                        <option value="0" selected></option>
 
                     </select>
                 </div>
@@ -163,6 +171,7 @@
             <div id="collapseEight" class="panel-collapse collapse">
                 <div class="panel-body">
                     <select>
+                        <option value="0" selected></option>
 
                     </select>
                 </div>
