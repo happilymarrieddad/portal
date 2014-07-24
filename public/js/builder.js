@@ -8,9 +8,5 @@ function update()
     var cpu = $('#select-cpu option:selected').val();
     var hdd = $('#select-hdd option:selected').val();
 
-    var mb2 = mb.split('#');
-
-    alert(mb2);
-
     $('#builder-price').text();
 }

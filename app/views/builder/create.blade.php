@@ -51,7 +51,7 @@
                     <select id="select-mb" onchange="update()">
                     <option value="0" selected></option>
                     @foreach($mb as $mb)
-                    <option value="{{ $mb->price }}#{{ $mb->socket }}">${{ number_format(($mb->price / 100), 2) }} - {{ $mb->brand }} {{ $mb->model }} {{ $mb->socket }} </option>
+                    <option value="{{ $mb->price }}" data-socket="{{ $mb->socket }}" >${{ number_format(($mb->price / 100), 2) }} - {{ $mb->brand }} {{ $mb->model }} {{ $mb->socket }} </option>
                     @endforeach
                     </select>
                 </div>
@@ -70,7 +70,7 @@
                     <select id="select-cpu" onchange="update()">
                         <option value="0" selected></option>
                         @foreach($cpu as $cpu)
-                        <option value="{{ $cpu->price }}#{{ $cpu->socket }}">${{ number_format(($cpu->price / 100), 2) }} - {{ $cpu->brand }} {{ $cpu->speed }} {{ $cpu->model }} {{ $cpu->socket }} </option>
+                        <option value="{{ $cpu->price }}" data-socket="{{ $cpu->socket }}" >${{ number_format(($cpu->price / 100), 2) }} - {{ $cpu->brand }} {{ $cpu->speed }} {{ $cpu->model }} {{ $cpu->socket }} </option>
                         @endforeach
                     </select>
                 </div>

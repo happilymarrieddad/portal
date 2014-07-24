@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/builder.js" afterPath="$PROJECT_DIR$/public/js/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/builder/create.blade.php" afterPath="$PROJECT_DIR$/app/views/builder/create.blade.php" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="create.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/builder/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="42" selection-start="2133" selection-end="2143" vertical-scroll-proportion="-10.0" vertical-offset="795" max-vertical-offset="3135">
+            <state line="59" column="41" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.5138889" vertical-offset="552" max-vertical-offset="3135">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builder.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="builder.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="53" selection-start="136" selection-end="136" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
+            <state line="8" column="53" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -132,8 +133,8 @@
         <option value="$PROJECT_DIR$/public/js/tutorials.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/views/builder/create.blade.php" />
         <option value="$PROJECT_DIR$/public/js/builder.js" />
+        <option value="$PROJECT_DIR$/app/views/builder/create.blade.php" />
       </list>
     </option>
   </component>
@@ -893,16 +894,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/builder/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="42" selection-start="2133" selection-end="2143" vertical-scroll-proportion="-10.0" vertical-offset="795" max-vertical-offset="3135">
+        <state line="8" column="53" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/builder.js">
+    <entry file="file://$PROJECT_DIR$/app/views/builder/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="136" selection-end="136" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
+        <state line="59" column="41" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.5138889" vertical-offset="552" max-vertical-offset="3135">
           <folding />
         </state>
       </provider>
