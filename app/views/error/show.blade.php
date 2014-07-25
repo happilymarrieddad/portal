@@ -1,27 +1,19 @@
-<!-- STORING TEMPLATE FOR LATER USE!!! -->
-
-
-<!-- Master Page -->
 @extends('layouts.default')
 
 
-<!-- Title of Page -->
 @section('title')
 @stop
 
 
-<!-- Links (like stylesheets) -->
 @section('links')
 @stop
 
 
-<!-- Body Mods -->
 @section('body')
 <body class="" style="">
 @stop
 
 
-<!-- Navigation Bar -->
 @section('nav')
 <li><a href="/home">Home</a></li>
 <li><a href="/about">About</a></li>
@@ -31,11 +23,18 @@
 @stop
 
 
-<!-- Page Contents -->
 @section('content')
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>ERROR {{ $id }}: {{ $message }}</h1>
+        </div>
+    </div>
+</div>
+
 @stop
 
 
-<!-- Scripts like Javascript -->
 @section('scripts')
 @stop
