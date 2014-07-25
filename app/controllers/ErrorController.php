@@ -56,8 +56,19 @@ class ErrorController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
-        return View::make('error.show')->with('id', $id)->with('message', 'error tester...')->with('session', $session)->with('name', $name);
-	}
+
+        try
+        {
+            $error = Error::find($id);
+            return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name);
+        }catch(Exception $e)
+        {
+            return View::make('error.show')->with('id', $id)->with('message', 'This error message isn\'t registers... please contact me with id numnber.')->with('session', $session)->with('name', $name);
+        }
+
+
+
+    }
 
 
 	/**

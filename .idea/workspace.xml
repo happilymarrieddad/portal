@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ErrorController.php" afterPath="$PROJECT_DIR$/app/controllers/ErrorController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +39,16 @@
       <file leaf-file-name="ErrorController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/ErrorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="71" selection-start="976" selection-end="976" vertical-scroll-proportion="0.6944444" vertical-offset="420" max-vertical-offset="1575">
+            <state line="63" column="28" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.8101852" vertical-offset="420" max-vertical-offset="1740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Error.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Error.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -83,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap/start.php" />
         <option value="$PROJECT_DIR$/app/models/News.php" />
         <option value="$PROJECT_DIR$/.env.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/sessions.blade.php" />
@@ -133,6 +143,7 @@
         <option value="$PROJECT_DIR$/app/views/error/1.blade.php" />
         <option value="$PROJECT_DIR$/app/views/error/show.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/models/Error.php" />
         <option value="$PROJECT_DIR$/app/controllers/ErrorController.php" />
       </list>
     </option>
@@ -650,11 +661,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/sessions.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="92" selection-start="305" selection-end="305" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="405" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-18.75" vertical-offset="150" max-vertical-offset="1365" />
@@ -673,16 +679,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/user/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="57" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/home.js">
@@ -930,9 +926,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09404389" vertical-offset="0" max-vertical-offset="638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.09404389" vertical-offset="0" max-vertical-offset="638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ErrorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="71" selection-start="976" selection-end="976" vertical-scroll-proportion="0.6944444" vertical-offset="420" max-vertical-offset="1575">
+        <state line="63" column="28" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.8101852" vertical-offset="420" max-vertical-offset="1740">
           <folding />
         </state>
       </provider>
