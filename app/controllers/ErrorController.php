@@ -56,7 +56,7 @@ class ErrorController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
-        return View::make('error.show')->with('id', $id, 'error tester...')->with('session', $session)->with('name', $name);
+        return View::make('error.show')->with('id', $id)->with('message', 'error tester...')->with('session', $session)->with('name', $name);
 	}
 
 
