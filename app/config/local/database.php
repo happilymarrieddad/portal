@@ -22,8 +22,8 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
-			'database'  => 'main',
+			'host'      => getenv('DB_HOST'),
+			'database'  => getenv('DB_MAIN'),
 			'username'  => getenv('DB_USERNAME'),
 			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
