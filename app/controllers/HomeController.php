@@ -23,7 +23,14 @@ class HomeController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
-        $lists = News::all();
+
+        try
+        {
+            $lists = News::all();
+        }catch(Exception $e)
+        {
+            $lists = array();
+        }
 
         return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name);
     }
