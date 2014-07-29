@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Cas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Cpu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Drive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Hdd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Mb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Monitor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Psu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Ram.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Cas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Cpu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Drive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Hdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Mb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Monitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Psu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Ram.php" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -500,11 +500,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/models/Builder" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/config/local" />
-      <recent name="$PROJECT_DIR$/app/config/ip-172-31-27-108" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/projects/eve-industrial-tool/home" />
