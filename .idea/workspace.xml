@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/start.php" afterPath="$PROJECT_DIR$/bootstrap/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,19 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="48" selection-start="948" selection-end="948" vertical-scroll-proportion="0.41066283" vertical-offset="0" max-vertical-offset="1065">
+            <state line="28" column="48" selection-start="948" selection-end="948" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="4" column="15" selection-start="75" selection-end="75" vertical-scroll-proportion="0.08356546" vertical-offset="0" max-vertical-offset="718">
               <folding />
             </state>
           </provider>
@@ -177,8 +178,8 @@
         <option value="$PROJECT_DIR$/.env.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bootstrap/start.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -760,9 +761,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="28" column="48" selection-start="948" selection-end="948" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
@@ -774,9 +775,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="48" selection-start="948" selection-end="948" vertical-scroll-proportion="0.41066283" vertical-offset="0" max-vertical-offset="1065">
+        <state line="4" column="15" selection-start="75" selection-end="75" vertical-scroll-proportion="0.08356546" vertical-offset="0" max-vertical-offset="718">
           <folding />
         </state>
       </provider>
