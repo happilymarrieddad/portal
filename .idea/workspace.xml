@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/start.php" afterPath="$PROJECT_DIR$/bootstrap/start.php" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="209" selection-end="209" vertical-scroll-proportion="0.26431718" vertical-offset="0" max-vertical-offset="735">
+            <state line="10" column="5" selection-start="177" selection-end="177" vertical-scroll-proportion="0.22026432" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -800,7 +798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="209" selection-end="209" vertical-scroll-proportion="0.26431718" vertical-offset="0" max-vertical-offset="735">
+        <state line="10" column="5" selection-start="177" selection-end="177" vertical-scroll-proportion="0.22026432" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
