@@ -1,1 +1,6 @@
-# Created by .gitignore support plugin (hsz.mobi)
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.local.php
+.env.php
