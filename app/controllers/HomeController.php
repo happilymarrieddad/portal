@@ -12,23 +12,26 @@ class HomeController extends \BaseController {
 
         $name = '';
 
-        if (Auth::check())
-        {
-            $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
-
-            $session = '<li><a href="logout">Logout</a></li>';
-        }
-        else
-        {
-            $session = '<li></li><li><a href="login">Login</a></li>';
-        }
-
 
         try
         {
+
+            if (Auth::check())
+            {
+                $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
+
+                $session = '<li><a href="logout">Logout</a></li>';
+            }
+            else
+            {
+                $session = '<li></li><li><a href="login">Login</a></li>';
+            }
+
             $lists = News::all();
         }catch(Exception $e)
         {
+            $session = '';
+            
             $lists = array();
         }
 
