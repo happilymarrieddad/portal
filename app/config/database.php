@@ -54,8 +54,8 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => getenv('DB_HOST'),
-			'database'  => getenv('DB_MAIN'),
+			'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
+			'database'  => 'main',
 			'username'  => getenv('DB_USERNAME'),
 			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
@@ -65,7 +65,7 @@ return array(
 
         'builder' => array(
             'driver'    => 'mysql',
-            'host'      => getenv('DB_HOST'),
+            'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
             'database'  => getenv('DB_BUILDER'),
             'username'  => getenv('DB_USERNAME'),
             'password'  => getenv('DB_PASSWORD'),
