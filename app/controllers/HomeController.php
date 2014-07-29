@@ -31,8 +31,8 @@ class HomeController extends \BaseController {
         }catch(Exception $e)
         {
             $session = '';
-            
-            $lists = array();
+
+            $lists = [];
         }
 
         return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name);
