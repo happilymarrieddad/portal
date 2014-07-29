@@ -10,6 +10,8 @@ class HomeController extends \BaseController {
     public function index()
     {
 
+        DD(getenv('DB_HOST'));
+
         $name = '';
 
 
