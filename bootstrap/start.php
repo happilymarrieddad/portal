@@ -26,8 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local'      => array('homestead', 'local', 'administorsmbp2.pk5001z'),
-    'production' => array('ip-172-31-27-108')
+	'local'      => array('homestead', 'local', 'ip-172-31-27-108', 'administorsmbp2.pk5001z'),
+    //'production' => array('ip-172-31-27-108')
 
 ));
 
