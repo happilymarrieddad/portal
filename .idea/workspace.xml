@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="45" selection-start="2068" selection-end="2068" vertical-scroll-proportion="-15.625" vertical-offset="630" max-vertical-offset="2115">
+            <state line="70" column="36" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.6051873" vertical-offset="630" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -61,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="177" selection-end="177" vertical-scroll-proportion="0.22026432" vertical-offset="0" max-vertical-offset="705">
+            <state line="15" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -177,8 +178,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/config/local/database.php" />
         <option value="$PROJECT_DIR$/bootstrap/start.php" />
-        <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
       </list>
     </option>
   </component>
@@ -789,16 +790,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="45" selection-start="2068" selection-end="2068" vertical-scroll-proportion="-15.625" vertical-offset="630" max-vertical-offset="2115">
+        <state line="15" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="177" selection-end="177" vertical-scroll-proportion="0.22026432" vertical-offset="0" max-vertical-offset="705">
+        <state line="70" column="36" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.6051873" vertical-offset="630" max-vertical-offset="2115">
           <folding />
         </state>
       </provider>
