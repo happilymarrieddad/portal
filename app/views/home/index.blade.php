@@ -26,7 +26,7 @@ Home Page
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center"><br />
             <span style="font-size:48px; color:orange; font-family: Arial">Segfault</span><br />
-            <span class="text-default" style="font-size: 24px; font-family: fantasy">2 + 2 = 5 .... for very large values of 2</span><br />
+            <span class="text-default" style="font-size: 24px; font-family: fantasy; color: red;">... Superior web development ...</span><br />
         </div>
     </div><br /><br /><br />
     <div class="row">
