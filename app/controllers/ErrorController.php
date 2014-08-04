@@ -9,7 +9,21 @@ class ErrorController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+
+        $name = '';
+
+        if (Auth::check())
+        {
+            $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
+
+            $session = '<li><a href="logout">Logout</a></li>';
+        }
+        else
+        {
+            $session = '<li></li><li><a href="login">Login</a></li>';
+        }
+
+        return View::make('error.index')->with('errors', Error::all())->with('session', $session)->with('name', $name);
 	}
 
 
@@ -63,7 +77,7 @@ class ErrorController extends \BaseController {
             return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name);
         }catch(Exception $e)
         {
-            return View::make('error.show')->with('id', $id)->with('message', 'This error message isn\'t registered... please contact me with id number.')->with('session', $session)->with('name', $name);
+            return View::make('error.show')->with('id', 1)->with('message', Error::find(1)->message)->with('session', $session)->with('name', $name);
         }
 
 

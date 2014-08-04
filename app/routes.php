@@ -48,8 +48,9 @@ Route::resource('article', 'ArticleController', ['only'=>['create', 'show', 'sto
 
 
 // Error Routes
-Route::get('/{id}', 'ErrorController@show');
-Route::resource('error', 'ErrorController', ['only'=>['show']]);
+Route::get('/error/{id}', 'ErrorController@show');
+Route::get('/error', 'ErrorController@index');
+Route::resource('error', 'ErrorController', ['only'=>['show', 'index']]);
 
 
 
