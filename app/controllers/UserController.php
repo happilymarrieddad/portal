@@ -4,7 +4,7 @@ class UserController extends \BaseController {
 
     public function __construct()
     {
-        $this->beforeFilter('auth', array('only'=>array('show', 'destroy')));
+        $this->beforeFilter('auth', array('only'=>array('show', 'destroy', 'edit', 'update')));
 
     }
 
@@ -85,5 +85,32 @@ class UserController extends \BaseController {
         return Redirect::intended('home');
 	}
 
+    public function edit()
+    {
+        $session = '<li><a href="logout">Logout</a></li>';
+
+        $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
+
+        $user = User::find(Auth::user()->id);
+
+        return View::make('user.edit')->with('session', $session)->with('name', $name)->with('user', $user)->with('projects', Project::all());
+    }
+
+    public function update()
+    {
+        if(Input::get('password') != Input::get('cpassword'))
+        {
+            return Redirect::back();
+        }
+
+        $user = User::find(Auth::user()->id);
+        $user->first_name = Input::get('fname');
+        $user->last_name = Input::get('lname');
+        $user->email = Input::get('email');
+        $user->password = Hash::make(Input::get('password'));
+        $user->save();
+
+        return Redirect::route('user.show');
+    }
 
 }

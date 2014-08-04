@@ -14,12 +14,21 @@
 @stop
 
 
+@section('nav')
+<li><a href="/home">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/tutorials">Tutorials</a></li>
+<li><a href="/projects">Projects</a></li>
+{{ $session }}
+@stop
+
+
 @section('content')
 <br /><br /><br />
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <table class="table">
-            <legend>User Information <a href="user/edit">edit</a></legend>
+            <legend>User Information  -  {{ HTML::linkRoute('user.edit', 'edit') }}</legend>
             <thead>
                 <tr><th>Name</th><th>Email</th><th>Account Type</th></tr>
             </thead>

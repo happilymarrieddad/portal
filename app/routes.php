@@ -36,9 +36,9 @@ Route::resource('sessions', 'SessionController', ['only'=>['create', 'store', 'd
 // User Routes
 Route::get('user/show', 'UserController@show');
 Route::get('user/edit', 'UserController@edit');
-Route::post('user/update', 'UserController@update');
 Route::get('user/create', 'UserController@create');
-Route::resource('user', 'UserController', ['only'=>['show', 'store', 'destroy', 'create']]);
+Route::post('user/{id}', 'UserController@update');
+Route::resource('user', 'UserController', ['only'=>['show', 'store', 'destroy', 'create', 'edit', 'update']]);
 
 
 // Article Routes
