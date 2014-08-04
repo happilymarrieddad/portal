@@ -35,7 +35,7 @@ class HomeController extends \BaseController {
             $lists = [];
         }
 
-        return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name);
+        return View::make('home.index')->with('lists', $lists)->with('session', $session)->with('name', $name)->with('projects', Project::all());
     }
 
 }

@@ -37,7 +37,7 @@ class BuilderController extends \BaseController {
         $monitor = Monitor::all();
 
 
-        return View::make('builder.create', ['name'=>$name,'session'=>$session,'cpu'=>$cpu,'mb'=>$mb,'psu'=>$psu,'ram'=>$ram,'case'=>$case,'drive'=>$drive,'hdd'=>$hdd,'monitor'=>$monitor]);
+        return View::make('builder.create', ['name'=>$name,'session'=>$session,'cpu'=>$cpu,'mb'=>$mb,'psu'=>$psu,'ram'=>$ram,'case'=>$case,'drive'=>$drive,'hdd'=>$hdd,'monitor'=>$monitor, 'projects'=>Project::all()]);
 	}
 
 

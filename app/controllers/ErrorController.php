@@ -23,7 +23,7 @@ class ErrorController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
-        return View::make('error.index')->with('errors', Error::all())->with('session', $session)->with('name', $name);
+        return View::make('error.index')->with('errors', Error::all())->with('session', $session)->with('name', $name)->with('projects', Project::all());
 	}
 
 
@@ -74,10 +74,10 @@ class ErrorController extends \BaseController {
         try
         {
             $error = Error::find($id);
-            return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name);
+            return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name)->with('projects', Project::all());
         }catch(Exception $e)
         {
-            return View::make('error.show')->with('id', 1)->with('message', Error::find(1)->message)->with('session', $session)->with('name', $name);
+            return View::make('error.show')->with('id', 1)->with('message', Error::find(1)->message)->with('session', $session)->with('name', $name)->with('projects', Project::all());
         }
 
 

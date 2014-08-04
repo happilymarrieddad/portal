@@ -18,7 +18,7 @@ class UserController extends \BaseController {
 	{
         $session = '<li></li><li><a href="login">Login</a></li>';
 
-		return View::make('user.create')->with('session', $session)->with('name', '')->with('error', '');
+		return View::make('user.create')->with('session', $session)->with('name', '')->with('error', '')->with('projects', Project::all());
 	}
 
 
@@ -35,7 +35,7 @@ class UserController extends \BaseController {
         {
             $session = '<li></li><li><a href="login">Login</a></li>';
 
-            return View::make('user.create')->with('session', $session)->with('name', '')->with('error', 'Passwords must match.');
+            return View::make('user.create')->with('session', $session)->with('name', '')->with('error', 'Passwords must match.')->with('projects', Project::all());
         }
 
         $user = new User;
@@ -67,7 +67,7 @@ class UserController extends \BaseController {
 
         $role = Role::find($user->type);
 
-        return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type );
+        return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type )->with('projects', Project::all());
 	}
 
 

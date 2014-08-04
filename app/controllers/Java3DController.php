@@ -1,6 +1,6 @@
 <?php
 
-class AboutController extends \BaseController {
+class Java3DController extends \BaseController {
 
     public function __construct()
     {
@@ -19,8 +19,8 @@ class AboutController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('about.index')->with('session', $session)->with('name', $name)->with('projects', Project::all());
-	}
+        return View::make('java3d.index')->with('session', $session)->with('name', $name)->with('projects', Project::all());
+    }
 
 
 	/**

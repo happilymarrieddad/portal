@@ -53,6 +53,9 @@ Route::get('/error', 'ErrorController@index');
 Route::resource('error', 'ErrorController', ['only'=>['show', 'index']]);
 
 
+// Java3D Routes
+Route::get('/java3d', 'Java3DController@index');
+Route::resource('java3d', 'Java3DController', ['only'=>['index']]);
 
 
 // Catch All Route

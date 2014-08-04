@@ -1,6 +1,3 @@
-<!-- STORING TEMPLATE FOR LATER USE!!! -->
-
-
 <!-- Master Page -->
 @extends('layouts.projects')
 

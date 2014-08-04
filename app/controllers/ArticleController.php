@@ -19,7 +19,7 @@ class ArticleController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('article.create')->with('session', $session)->with('name', $name);
+        return View::make('article.create')->with('session', $session)->with('name', $name)->with('projects', Project::all());
 	}
 
 
@@ -79,7 +79,7 @@ class ArticleController extends \BaseController {
 
         $article = Article::find($id);
 
-        return View::make('article.edit')->with('session', $session)->with('name', $name);
+        return View::make('article.edit')->with('session', $session)->with('name', $name)->with('projects', Project::all());
     }
 
 

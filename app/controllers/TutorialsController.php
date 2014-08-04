@@ -22,7 +22,7 @@ class TutorialsController extends \BaseController {
         $se = Article::where('type', '=', 'Software Engineering')->get();
         $books = Book::all();
 
-        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('books', $books);
+        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('books', $books)->with('projects', Project::all());
 	}
 
 
