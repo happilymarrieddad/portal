@@ -23,7 +23,13 @@ Projects Page
         <li><a href="/projects">Projects</a></li>
         <li class="divider"></li>
         @foreach($projects as $project)
-        <li><a href="{{$project->link}}">{{$project->name}}</a></li>
+        @if($project->active == 2)
+        <li><a href="{{ $project->link }}" class="btn btn-md btn-success">[{{ $project->id }}] - {{ $project->name }}</a></li>
+        @elseif($project->active == 1)
+        <li><a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a></li>
+        @else
+        <li><a href="{{ $project->link }}" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a></li>
+        @endif
         @endforeach
     </ul>
 </li>
@@ -44,11 +50,11 @@ Projects Page
     <div class="col-md-12 text-center">
         @foreach($projects as $project)
         @if($project->active == 2)
-        <a href="{{ $project->link }}" class="btn btn-md btn-success">[{{ $project->id }}] - {{ $project->name }}</a>
+        <a href="{{ $project->link }}" class="btn btn-md btn-success">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
         @elseif($project->active == 1)
-        <a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a>
+        <a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
         @else
-        <a href="{{ $project->link }}" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a>
+        <a href="{{ $project->link }}" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
         @endif
         @endforeach
     </div>
