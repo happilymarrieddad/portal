@@ -27,14 +27,21 @@ Projects Page
 <br />
 <div class="row">
     <div class="col-md-12 text-center">
-        <h1>Projects (links will be working soon)</h1>
+        <h1>Projects</h1>
+        <h4>Green means it's complete. Orange means it's still in production. Red means the link isn't ready and won't work.</h4>
     </div>
 </div>
 <br />
 <div class="row">
     <div class="col-md-12 text-center">
         @foreach($projects as $project)
+        @if($project->active == 2)
+        <a href="{{ $project->link }}" class="btn btn-md btn-success">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
+        @elseif($project->active == 1)
         <a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
+        @else
+        <a href="{{ $project->link }}" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a><br /><br />
+        @endif
         @endforeach
     </div>
 </div>
