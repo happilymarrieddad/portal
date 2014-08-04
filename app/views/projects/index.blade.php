@@ -42,7 +42,7 @@ Projects Page
 <div class="row">
     <div class="col-md-12 text-center">
         <h1>Projects</h1>
-        <h4>Green means it's complete. Orange means it's still in production. Red means the link isn't ready and won't work.</h4>
+        <h4>Green means it's complete. Orange means it's still in production. Red means the project isn't ready.</h4>
     </div>
 </div>
 <br />
