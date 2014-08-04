@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/java3d/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/projects.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AboutController.php" afterPath="$PROJECT_DIR$/app/controllers/AboutController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ArticleController.php" afterPath="$PROJECT_DIR$/app/controllers/ArticleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BuilderController.php" afterPath="$PROJECT_DIR$/app/controllers/BuilderController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ErrorController.php" afterPath="$PROJECT_DIR$/app/controllers/ErrorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ProjectsController.php" afterPath="$PROJECT_DIR$/app/controllers/ProjectsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TutorialsController.php" afterPath="$PROJECT_DIR$/app/controllers/TutorialsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/article/create.blade.php" afterPath="$PROJECT_DIR$/app/views/article/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/builder/create.blade.php" afterPath="$PROJECT_DIR$/app/views/builder/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user/create.blade.php" afterPath="$PROJECT_DIR$/app/views/user/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/article/edit.blade.php" afterPath="$PROJECT_DIR$/app/views/article/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about/index.blade.php" afterPath="$PROJECT_DIR$/app/views/about/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/error/index.blade.php" afterPath="$PROJECT_DIR$/app/views/error/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.blade.php" afterPath="$PROJECT_DIR$/app/views/home/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.blade.php" afterPath="$PROJECT_DIR$/app/views/projects/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tutorials/index.blade.php" afterPath="$PROJECT_DIR$/app/views/tutorials/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user/index.blade.php" afterPath="$PROJECT_DIR$/app/views/user/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/error/show.blade.php" afterPath="$PROJECT_DIR$/app/views/error/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user/show.blade.php" afterPath="$PROJECT_DIR$/app/views/user/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portal.iws" />
@@ -84,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="39" selection-start="1012" selection-end="1504" vertical-scroll-proportion="-11.375" vertical-offset="387" max-vertical-offset="990">
+            <state line="45" column="34" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.47761193" vertical-offset="387" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -129,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/user/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="630">
+            <state line="23" column="73" selection-start="431" selection-end="431" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -195,13 +173,13 @@
         <option value="$PROJECT_DIR$/app/controllers/SessionController.php" />
         <option value="$PROJECT_DIR$/app/controllers/TutorialsController.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/projects.blade.php" />
         <option value="$PROJECT_DIR$/app/views/about/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/article/create.blade.php" />
         <option value="$PROJECT_DIR$/app/views/article/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tutorials/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/projects/index.blade.php" />
       </list>
     </option>
   </component>
@@ -1062,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="39" selection-start="1012" selection-end="1504" vertical-scroll-proportion="-11.375" vertical-offset="387" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/session/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -1099,7 +1070,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="630">
+        <state line="23" column="73" selection-start="431" selection-end="431" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.47761193" vertical-offset="387" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
