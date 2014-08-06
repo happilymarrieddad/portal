@@ -50,6 +50,8 @@ Route::filter('auth', function()
 
 Route::filter('admin', function(){
 
+
+
 });
 
 
