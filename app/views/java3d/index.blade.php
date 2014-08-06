@@ -27,7 +27,7 @@ Java 3D Programming
     <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
             <h1>Javascript 3D Programming</h1>
-            <div class="col-md-4 col-md-offset-4" id="jsbox">
+            <div class="col-md-10 col-md-offset-1" id="jsbox" style="height:400px;">
             </div>
         </div>
     </div>
