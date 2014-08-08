@@ -5,11 +5,47 @@
 //lambertmaterial4();
 //shapes5();
 //phong6();  //include trackball controls
-objectLoops7();
+random7();
+//grid8();
 
-function objectLoops7()
+function grid8()
 {
-    var renderer = new THREE.WebGLRenderer();
+    var camera, scene, renderer;
+
+    init();
+
+    function init()
+    {
+        scene = new THREE.Scene();
+
+        var fieldOfView = 75;
+        var nearClippingPlane = 1;
+        var farClippingPlane = 10000;
+
+        camera = new THREE.PerspectiveCamera( fieldOfView, window.innerWidth / window.innerHeight, nearClippingPlane, farClippingPlane );
+
+        renderer = new THREE.WebGLRenderer();
+
+        var renWidth = 800;
+        var renHeight = 500;
+
+        renderer.setSize( renWidth, renHeight );
+        var container = document.getElementById('jsbox2');
+        container.appendChild(renderer.domElement);
+
+        render();
+    }
+    function render()
+    {
+        renderer.render(scene, camera);
+    }
+
+}
+
+function random7()
+{
+    var renderer = new THREE.WebGLRenderer({alpha:true});
+    renderer.setClearColor(0xffffff, 1);
 
     var renWidth = 800;
     var renHeight = 500;
@@ -39,22 +75,24 @@ function objectLoops7()
         shininess:'15',
         shading: THREE.FlatShading //THREE.SmoothShading
     }));
-    sphere.position.x = 150;
 
-    for(var i = 0; i < 10; i++)
+    for(var i = 0; i < 1000; i++)
     {
         var geometry = new THREE.CubeGeometry(100,100,100);
         var material = new THREE.MeshNormalMaterial();
         var mesh = new THREE.Mesh(geometry, material);
-        mesh.position.z = (i * 120) - 500;
+        mesh.position.z = (Math.random() - 0.5) * 10000;
+        mesh.position.x = (Math.random() - 0.5) * 10000;
+        mesh.position.y = (Math.random() - 0.5) * 10000;
+        mesh.rotation.z = (Math.random() - 0.5) * 360;
+        mesh.rotation.x = (Math.random() - 0.5) * 360;
+        mesh.rotation.y = (Math.random() - 0.5) * 360;
         scene.add(mesh);
     }
 
 
     var light = new THREE.DirectionalLight('white');
     light.position.set(0,-400,200).normalize();
-    var light2 = new THREE.DirectionalLight('white');
-    light2.position.set(0,400,200).normalize();
 
     var angularSpeed = 0.4;
     var lastTime = 0;
@@ -87,7 +125,6 @@ function objectLoops7()
     //scene.add(plane);
     scene.add(sphere);
     scene.add(light);
-    scene.add(light2);
     scene.add(mesh);
 
     animate();
