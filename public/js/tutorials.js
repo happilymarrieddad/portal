@@ -102,18 +102,27 @@ $(function () {
         tell('alert.hide');
         button.error.show();
         button.error.text(val);
+        setTimeout(function() {
+            button.error.fadeOut('fast');
+        }, 4000);
     });
 
     listen('alert.loading', function(val) {
         tell('alert.hide');
         button.loading.show();
         button.loading.text(val);
+        setTimeout(function() {
+            button.loading.fadeOut('fast');
+        }, 4000);
     });
 
     listen('alert.success', function(val) {
         tell('alert.hide');
         button.success.show();
         button.success.text(val);
+        setTimeout(function() {
+            button.success.fadeOut('fast');
+        }, 4000);
     });
 
     listen('alert.hide', function() {
