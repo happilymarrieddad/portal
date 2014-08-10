@@ -2,12 +2,12 @@
 
 class Java3DController extends \BaseController {
 
-    /*
+    
     public function __construct()
     {
         $this->beforeFilter('auth', array('only'=>array('index')));
 
-    }*/
+    }
 
 	/**
 	 * Display a listing of the resource.
