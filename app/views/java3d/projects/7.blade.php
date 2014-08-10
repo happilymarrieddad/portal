@@ -4,7 +4,7 @@
 
 <!-- Title of Page -->
 @section('title')
-Java 3D Programming - Random
+Java 3D Programming - Mouse Drag and Zoom
 @stop
 
 
@@ -27,7 +27,7 @@ Java 3D Programming - Random
     <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
             <br />
-            Random
+            Mouse Drag and Zoom
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="jsbox" style="height:400px">
