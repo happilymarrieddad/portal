@@ -2,11 +2,12 @@
 
 class Java3DController extends \BaseController {
 
+    /*
     public function __construct()
     {
         $this->beforeFilter('auth', array('only'=>array('index')));
 
-    }
+    }*/
 
 	/**
 	 * Display a listing of the resource.
@@ -19,7 +20,7 @@ class Java3DController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('java3d.index')->with('session', $session)->with('name', $name)->with('projects', Project::all());
+        return View::make('java3d.index')->with('session', $session)->with('name', $name)->with('projects', JavaProjects::all());
     }
 
 
@@ -57,7 +58,7 @@ class Java3DController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-		return View::make('java3d.projects.'.$id)->with('session', $session)->with('name', $name);
+		return View::make('java3d.projects.'.$id)->with('session', $session)->with('name', $name)->with('projects', Project::all());
 	}
 
 

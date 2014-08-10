@@ -4,7 +4,7 @@
 
 <!-- Title of Page -->
 @section('title')
-Java 3D Programming - First Project
+Java 3D Programming - Planet Orbits
 @stop
 
 
@@ -27,7 +27,7 @@ Java 3D Programming - First Project
     <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
             <br />
-            First Project
+            Planet Orbits
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="jsbox" style="height:400px">
@@ -43,5 +43,5 @@ Java 3D Programming - First Project
 <!-- Scripts like Javascript -->
 @section('scripts')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
-<script src="../js/java3d/projects/p1.js"></script>
+<script src="../js/java3d/projects/p9.js"></script>
 @stop

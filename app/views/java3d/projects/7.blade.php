@@ -4,7 +4,7 @@
 
 <!-- Title of Page -->
 @section('title')
-Java 3D Programming - First Project
+Java 3D Programming - Random
 @stop
 
 
@@ -27,7 +27,7 @@ Java 3D Programming - First Project
     <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
             <br />
-            First Project
+            Random
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1" id="jsbox" style="height:400px">
@@ -43,5 +43,6 @@ Java 3D Programming - First Project
 <!-- Scripts like Javascript -->
 @section('scripts')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
-<script src="../js/java3d/projects/p1.js"></script>
+<script src="../js/java3d/threejs/TrackballControls.js"></script>
+<script src="../js/java3d/projects/p7.js"></script>
 @stop
