@@ -2,7 +2,7 @@
 
 class Java3DController extends \BaseController {
 
-    
+
     public function __construct()
     {
         $this->beforeFilter('auth', array('only'=>array('index')));
@@ -16,7 +16,7 @@ class Java3DController extends \BaseController {
 	 */
 	public function index()
 	{
-        $session = '<li><a href="logout">Logout</a></li>';
+        $session = '';
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
