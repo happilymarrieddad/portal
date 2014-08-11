@@ -126,9 +126,9 @@ function onDocumentKeyPressed(char)
 
 function animate()
 {
-    $('#cube-x').html(cube.rotation.x);
-    $('#cube-y').html(cube.rotation.y);
-    $('#cube-z').html(cube.rotation.z);
+    $('#cube-x').html(cube.rotation.x.toFixed(2));
+    $('#cube-y').html(cube.rotation.y.toFixed(2));
+    $('#cube-z').html(cube.rotation.z.toFixed(2));
     $('#camera-x').html(camera.position.x);
     $('#camera-y').html(camera.position.y);
     $('#camera-z').html(camera.position.z);
