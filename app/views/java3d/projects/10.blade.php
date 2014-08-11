@@ -30,7 +30,7 @@ Java 3D Programming - Keyboard Interaction
             Keyboard Interaction - Please press a key<br /><br />
             Key Pressed:<span id="letter">d</span><br />
             Cube Controls: W S A D Q E<br />
-            Camera Controls: I K J L U P<br />
+            Camera Controls: I K J L U P + - F<br />
             Cube X = <span id="cube-x"></span><br />
             Cube Y = <span id="cube-y"></span><br />
             Cube Z = <span id="cube-z"></span><br />

@@ -82,12 +82,12 @@ function onDocumentKeyPressed(char)
         case 'e':
             cube.rotation.x += 2 * (Math.PI / 180);
             break;
-        case 'O':
-        case 'o':
+        case '_':
+        case '-':
             camera.position.y = camera.position.y - 10;
             break;
-        case 'U':
-        case 'u':
+        case '+':
+        case '=':
             camera.position.y = camera.position.y + 10;
             break;
         case 'L':
@@ -105,6 +105,18 @@ function onDocumentKeyPressed(char)
         case 'I':
         case 'i':
             camera.position.x = camera.position.x + 10;
+            break;
+        case 'U':
+        case 'u':
+            camera.rotation.z += 2 * (Math.PI / 180);
+            break;
+        case 'O':
+        case 'o':
+            camera.rotation.z -= 2 * (Math.PI / 180);
+            break;
+        case 'F':
+        case 'f':
+            camera.lookAt( cube.position );
             break;
 
     }
@@ -125,8 +137,5 @@ function animate()
 
 function render()
 {
-
-    camera.lookAt( scene.position );
-
     renderer.render(scene, camera);
 }
