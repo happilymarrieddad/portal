@@ -1,6 +1,6 @@
 click();
 
-var scene, camera, renderer, cube, light, light2;
+var scene, camera, renderer, cube, light, light2, light3;
 
 function click()
 {
@@ -22,15 +22,18 @@ function click()
     container.appendChild(renderer.domElement);
 
     cube = new THREE.Mesh(new THREE.CubeGeometry(200,100,100), new THREE.MeshLambertMaterial({
-        color:'blue'
+        color:'lightblue'
     }));
 
     light = new THREE.DirectionalLight('white',1);
     light.position.set(200,200,800).normalize();
     light2 = new THREE.DirectionalLight('white',1);
     light2.position.set(-200,-800,-200).normalize();
+    light3 = new THREE.DirectionalLight('white',0.1);
+    light3.position.set(-400,400,100).normalize();
     scene.add(light);
     scene.add(light2);
+    scene.add(light3);
     scene.add(cube);
 
     window.addEventListener('resize', onWindowResize, false);

@@ -33,7 +33,7 @@
                     @endforeach
                 </ul>
             </li>
-            {{ $session }}
+            <li><a href="/logout">Logout</a></li>
         </ul>
         <p class="navbar-text navbar-right">
             {{ $name }}
