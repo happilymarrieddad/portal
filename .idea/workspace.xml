@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="" />
+    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/projects.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/projects.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="23" column="28" selection-start="483" selection-end="483" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/projects.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-19.416666" vertical-offset="194" max-vertical-offset="930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.05172414" vertical-offset="0" max-vertical-offset="580">
               <folding />
             </state>
           </provider>
@@ -107,7 +130,6 @@
         <option value="$PROJECT_DIR$/app/controllers/ProjectsController.php" />
         <option value="$PROJECT_DIR$/app/controllers/SessionController.php" />
         <option value="$PROJECT_DIR$/app/controllers/TutorialsController.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/projects.blade.php" />
         <option value="$PROJECT_DIR$/app/views/about/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/article/create.blade.php" />
         <option value="$PROJECT_DIR$/app/views/article/edit.blade.php" />
@@ -123,15 +145,16 @@
         <option value="$PROJECT_DIR$/app/views/java3d/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/java3d/projects/11.blade.php" />
         <option value="$PROJECT_DIR$/public/js/java3d/projects/p11.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/projects.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="243" />
-    <option name="y" value="22" />
-    <option name="width" value="1047" />
-    <option name="height" value="790" />
+    <option name="x" value="1445" />
+    <option name="y" value="398" />
+    <option name="width" value="1175" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -409,6 +432,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -443,7 +484,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="illuminate" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../event-store-php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tablet" />
     <property name="FullScreen" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
@@ -542,7 +583,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="243" y="22" width="1047" height="790" extended-state="0" />
+    <frame x="1445" y="398" width="1175" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -551,10 +592,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.009708738" sideWeight="0.49952245" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27698186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24680851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.008321775" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0116054155" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -585,16 +626,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/BuilderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="225" selection-end="225" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1635" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ErrorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="152" selection-start="685" selection-end="685" vertical-scroll-proportion="-15.0" vertical-offset="15" max-vertical-offset="1950" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Java3DController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="90" selection-start="559" selection-end="593" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1530" />
@@ -780,11 +811,6 @@
         <state line="40" column="56" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1215" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/projects.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="51" selection-start="843" selection-end="1410" vertical-scroll-proportion="0.15680474" vertical-offset="254" max-vertical-offset="930" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/java3d/projects/7.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
@@ -853,9 +879,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="328" selection-end="328" vertical-scroll-proportion="0.40467626" vertical-offset="0" max-vertical-offset="556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="687">
+        <state line="23" column="28" selection-start="483" selection-end="483" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/projects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-19.416666" vertical-offset="194" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.05172414" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>

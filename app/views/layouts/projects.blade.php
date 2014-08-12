@@ -28,7 +28,7 @@
                     @elseif($project->active == 1)
                     <li><a href="{{ $project->link }}" class="btn btn-md btn-warning">[{{ $project->id }}] - {{ $project->name }}</a></li>
                     @else
-                    <li><a href="{{ $project->link }}" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a></li>
+                    <li><a href="#" class="btn btn-md btn-danger">[{{ $project->id }}] - {{ $project->name }}</a></li>
                     @endif
                     @endforeach
                 </ul>
