@@ -30,10 +30,10 @@
         <table class="table">
             <legend>User Information  -  {{ HTML::linkRoute('user.edit', 'edit') }}</legend>
             <thead>
-                <tr><th>Name</th><th>Email</th><th>Account Type</th></tr>
+                <tr><th>Name</th><th>Email</th><th>Account Type</th><th>Last Login</th></tr>
             </thead>
             <tbody>
-                <tr><td>{{ $user->first_name }} {{ $user->last_name }}</td><td>{{ $user->email }}</td><td>{{ $type }}</td></tr>
+                <tr><td>{{ $user->first_name }} {{ $user->last_name }}</td><td>{{ $user->email }}</td><td>{{ $type }}</td><td>{{ Dates::showTimeAgo($user->last_login) }}</td></tr>
             </tbody>
         </table>
     </div>

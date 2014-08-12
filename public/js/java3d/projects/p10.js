@@ -113,11 +113,7 @@ function onDocumentKeyPressed(char)
         case 'O':
         case 'o':
             camera.rotation.z -= 2 * (Math.PI / 180);
-            break;/*
-        case 'F':
-        case 'f':
-            camera.lookAt( cube.position );
-            break;*/
+            break;
 
     }
 

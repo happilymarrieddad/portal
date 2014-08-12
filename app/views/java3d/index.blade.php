@@ -30,11 +30,9 @@ Java 3D Programming
 
             <br /><br />
             @foreach($projects->reverse() as $project)
-
             @if($project->active)
             <a href="{{$project->link}}">[{{$project->id}}] - {{$project->name}}</a><br /><br />
             @endif
-
             @endforeach
 
             <div class="row">
@@ -49,8 +47,8 @@ Java 3D Programming
 
 <!-- Scripts like Javascript -->
 @section('scripts')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.js"></script>
 <!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.js"></script>
 <script src="js/java3d/threejs/Detector.js"></script>
 <script src="js/java3d/threejs/OrbitControls.js"></script>
 <script src="js/java3d/threejs/Stats.js"></script>
@@ -60,6 +58,7 @@ Java 3D Programming
 <script src="js/java3d/threejs/DeviceOrientationControls.js"></script>
 <script src="js/java3d/threejs/EditorControls.js"></script>
 <script src="js/java3d/threejs/FirstPersonControls.js"></script>
+<script src="js/java3d/threejs/ImprovedNoise.js"></script>
 <script src="js/java3d/threejs/FlyControls.js"></script>
 <script src="js/java3d/threejs/OculusControls.js"></script>
 <script src="js/java3d/threejs/OrthographicTrackballControls.js"></script>
@@ -67,6 +66,6 @@ Java 3D Programming
 <script src="js/java3d/threejs/TrackballControls.js"></script>
 <script src="js/java3d/threejs/TransformControls.js"></script>
 <script src="js/java3d/threejs/VRControls.js"></script>
+<script src="js/java3d/threejs/.js"></script>
 -->
-<script src="js/java3d/base.js"></script>
 @stop
