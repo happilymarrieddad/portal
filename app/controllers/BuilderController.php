@@ -28,13 +28,21 @@ class BuilderController extends \BaseController {
 
 
         $cpu = Cpu::all();
+        if($cpu->isEmpty()) $cpu = array();
         $mb = Mb::all();
+        if($mb->isEmpty()) $mb = array();
         $psu = Psu::all();
+        if($psu->isEmpty()) $psu = array();
         $ram = Ram::all();
+        if($ram->isEmpty()) $ram = array();
         $case = Cas::all();
+        if($case->isEmpty()) $case = array();
         $drive = Drive::all();
+        if($drive->isEmpty()) $drive = array();
         $hdd = Hdd::all();
+        if($hdd->isEmpty()) $hdd = array();
         $monitor = Monitor::all();
+        if($monitor->isEmpty()) $monitor = array();
 
 
         return View::make('builder.create', ['name'=>$name,'session'=>$session,'cpu'=>$cpu,'mb'=>$mb,'psu'=>$psu,'ram'=>$ram,'case'=>$case,'drive'=>$drive,'hdd'=>$hdd,'monitor'=>$monitor, 'projects'=>Project::all()]);

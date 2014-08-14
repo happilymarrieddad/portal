@@ -23,7 +23,15 @@ class ErrorController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
-        return View::make('error.index')->with('errors', Error::all())->with('session', $session)->with('name', $name)->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        $errors = Error::all();
+        if($errors->isEmpty()) $empty = array();
+
+        return View::make('error.index')->with('errors', $errors)->with('session', $session)->with('name', $name)->with('projects', $projects);
 	}
 
 
@@ -70,14 +78,19 @@ class ErrorController extends \BaseController {
             $session = '<li></li><li><a href="login">Login</a></li>';
         }
 
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
 
         try
         {
             $error = Error::find($id);
-            return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name)->with('projects', Project::all());
+            return View::make('error.show')->with('id', $id)->with('message', $error->message)->with('session', $session)->with('name', $name)->with('projects', $projects);
         }catch(Exception $e)
         {
-            return View::make('error.show')->with('id', 1)->with('message', Error::find(1)->message)->with('session', $session)->with('name', $name)->with('projects', Project::all());
+            return View::make('error.show')->with('id', 1)->with('message', Error::find(1)->message)->with('session', $session)->with('name', $name)->with('projects', $projects);
         }
 
 

@@ -18,7 +18,12 @@ class UserController extends \BaseController {
 	{
         $session = '<li></li><li><a href="login">Login</a></li>';
 
-		return View::make('user.create')->with('session', $session)->with('name', '')->with('error', '')->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+		return View::make('user.create')->with('session', $session)->with('name', '')->with('error', '')->with('projects', $projects);
 	}
 
 
@@ -31,11 +36,16 @@ class UserController extends \BaseController {
 	{
 		$input = Input::all();
 
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
         if($input['password'] != $input['cpassword'])
         {
             $session = '<li></li><li><a href="login">Login</a></li>';
 
-            return View::make('user.create')->with('session', $session)->with('name', '')->with('error', 'Passwords must match.')->with('projects', Project::all());
+            return View::make('user.create')->with('session', $session)->with('name', '')->with('error', 'Passwords must match.')->with('projects', $projects);
         }
 
         $user = new User;
@@ -67,7 +77,12 @@ class UserController extends \BaseController {
 
         $role = Role::find($user->type);
 
-        return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type )->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('user.show')->with('session', $session)->with('name', $name)->with('user', $user)->with('type', $role->type )->with('projects', $projects);
 	}
 
 
@@ -93,7 +108,12 @@ class UserController extends \BaseController {
 
         $user = User::find(Auth::user()->id);
 
-        return View::make('user.edit')->with('session', $session)->with('name', $name)->with('user', $user)->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('user.edit')->with('session', $session)->with('name', $name)->with('user', $user)->with('projects', $projects);
     }
 
     public function update()

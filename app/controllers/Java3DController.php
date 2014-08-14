@@ -20,7 +20,12 @@ class Java3DController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('java3d.index')->with('session', $session)->with('name', $name)->with('projects', JavaProjects::all());
+        $projects = JavaProjects::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('java3d.index')->with('session', $session)->with('name', $name)->with('projects', $projects);
     }
 
 
@@ -58,7 +63,12 @@ class Java3DController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-		return View::make('java3d.projects.'.$id)->with('session', $session)->with('name', $name)->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+		return View::make('java3d.projects.'.$id)->with('session', $session)->with('name', $name)->with('projects', $projects);
 	}
 
 

@@ -21,7 +21,10 @@ class ProjectsController extends \BaseController {
 
         $projects = Project::all();
 
-        return View::make('projects.index')->with('session', $session)->with('name', $name)->with('projects', $projects)->with('projects', Project::all());
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('projects.index')->with('session', $session)->with('name', $name)->with('projects', $projects);
 	}
 
 

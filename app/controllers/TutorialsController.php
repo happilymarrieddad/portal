@@ -19,10 +19,18 @@ class TutorialsController extends \BaseController {
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
         $ce = Article::where('type', '=', 'Computer Engineering')->get();
+        if($ce->isEmpty()) $ce = array();
         $se = Article::where('type', '=', 'Software Engineering')->get();
+        if($se->isEmpty()) $se = array();
         $books = Book::all();
+        if($books->isEmpty()) $books = array();
 
-        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('books', $books)->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('tutorials.index')->with('session', $session)->with('name', $name)->with('ce', $ce)->with('se', $se)->with('books', $books)->with('projects', $projects);
 	}
 
 

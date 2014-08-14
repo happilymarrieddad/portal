@@ -5,7 +5,6 @@ class AboutController extends \BaseController {
     public function __construct()
     {
         $this->beforeFilter('auth', array('only'=>array('index')));
-
     }
 
 	/**
@@ -19,7 +18,12 @@ class AboutController extends \BaseController {
 
         $name = 'Signed in as <a href="user/show" class="navbar-link">' . (Auth::user()->first_name ?: Auth::user()->email) . '</a>';
 
-        return View::make('about.index')->with('session', $session)->with('name', $name)->with('projects', Project::all());
+        $projects = Project::all();
+
+        if($projects->isEmpty())
+            $projects = array();;
+
+        return View::make('about.index')->with('session', $session)->with('name', $name)->with('projects', $projects);
 	}
 
 
