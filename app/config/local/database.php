@@ -22,10 +22,10 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
+            'host'      => 'localhost',
             'database'  => 'main',
             'username'  => 'segfault',
-            'password'  => 'Wurger12',
+            'password'  => 'wurger12',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -33,10 +33,10 @@ return array(
 
         'builder' => array(
             'driver'    => 'mysql',
-            'host'      => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
+            'host'      => 'localhost',
             'database'  => 'builder',
             'username'  => 'segfault',
-            'password'  => 'Wurger12',
+            'password'  => 'wurger12',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
