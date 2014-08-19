@@ -58,6 +58,10 @@ Route::get('/java3d', 'Java3DController@index');
 Route::resource('java3d', 'Java3DController', ['only'=>['index', 'show']]);
 
 
+// Angband3D Routes
+Route::get('/angband3d', 'Angband3DController@index');
+Route::resource('angband3d', 'Angband3DController', ['only'=>['index']]);
+
 // Catch All Route
 App::missing(function() {
     return Redirect::to('/');
