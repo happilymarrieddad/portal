@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="" />
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env.local.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.local.php">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="32" selection-start="148" selection-end="148" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
+            <state line="5" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name=".env.local.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env.local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="0.112443775" vertical-offset="0" max-vertical-offset="667">
+            <state line="7" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16329704" vertical-offset="0" max-vertical-offset="643">
               <folding />
             </state>
           </provider>
@@ -149,10 +146,10 @@
         <option value="$PROJECT_DIR$/app/controllers/TutorialsController.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/bootstrap/start.php" />
-        <option value="$PROJECT_DIR$/.env.local.php" />
         <option value="$PROJECT_DIR$/app/config/local/database.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env.local.php" />
       </list>
     </option>
   </component>
@@ -942,16 +939,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="148" selection-end="148" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="210">
+        <state line="5" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.env.local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="0.112443775" vertical-offset="0" max-vertical-offset="667">
+        <state line="7" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16329704" vertical-offset="0" max-vertical-offset="643">
           <folding />
         </state>
       </provider>
