@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/CenterTown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/GateHouse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/MainTown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/SewerEntrance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/SewerRoom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/unity/angband3d/SewerWall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/angband3d/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/angband3d/index.blade.php" afterPath="$PROJECT_DIR$/app/views/angband3d/index.blade.php" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,15 +28,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/java3d/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="2253" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1140">
-              <folding>
-                <marker date="1407794116000" expanded="true" signature="293:2252" placeholder="..." />
-                <marker date="1407794116000" expanded="true" signature="381:861" placeholder="..." />
-                <marker date="1407794116000" expanded="true" signature="403:854" placeholder="..." />
-                <marker date="1407794116000" expanded="true" signature="463:843" placeholder="..." />
-                <marker date="1407794116000" expanded="true" signature="808:827" placeholder="..." />
-                <marker date="1407794116000" expanded="true" signature="1067:2244" placeholder="..." />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="2253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +37,10 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/angband3d/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="39" selection-start="756" selection-end="756" vertical-scroll-proportion="0.32125205" vertical-offset="285" max-vertical-offset="1470">
-              <folding />
+            <state line="40" column="33" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.42857143" vertical-offset="330" max-vertical-offset="1470">
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +48,7 @@
       <file leaf-file-name="Angband3DController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Angband3DController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="576" selection-end="576" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1605">
+            <state line="24" column="33" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1605">
               <folding />
             </state>
           </provider>
@@ -70,7 +57,7 @@
       <file leaf-file-name="ProjectsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ProjectsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="471" selection-end="576" vertical-scroll-proportion="-7.5" vertical-offset="120" max-vertical-offset="1605">
+            <state line="20" column="0" selection-start="471" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1605">
               <folding />
             </state>
           </provider>
@@ -79,7 +66,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="73" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-20.916666" vertical-offset="428" max-vertical-offset="1095">
+            <state line="62" column="73" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -88,7 +75,7 @@
       <file leaf-file-name="Java3DController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Java3DController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="118" selection-start="678" selection-end="707" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1755">
+            <state line="27" column="118" selection-start="678" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1755">
               <folding />
             </state>
           </provider>
@@ -163,8 +150,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="127" />
-    <option name="width" value="1479" />
+    <option name="x" value="1450" />
+    <option name="y" value="310" />
+    <option name="width" value="1440" />
     <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -193,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,7 +408,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,15 +513,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="127" width="1479" height="764" extended-state="0" />
-    <editor active="false" />
+    <frame x="1450" y="310" width="1440" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.011299435" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
@@ -730,23 +718,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/TutorialsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1695">
-          <folding />
-        </state>
+        <state line="23" column="41" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-6.7916665" vertical-offset="317" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-6.7916665" vertical-offset="317" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env.local.php">
@@ -758,16 +740,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="10" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.41990668" vertical-offset="675" max-vertical-offset="2115">
-          <folding />
-        </state>
+        <state line="63" column="10" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.41990668" vertical-offset="675" max-vertical-offset="2115" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="10" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-0.0952381" vertical-offset="735" max-vertical-offset="1365">
-          <folding />
-        </state>
+        <state line="45" column="10" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-0.0952381" vertical-offset="735" max-vertical-offset="1365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/about.css">
@@ -780,14 +758,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/java3d/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="2253" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1140">
-          <folding>
-            <marker date="1407794116000" expanded="true" signature="293:2252" placeholder="..." />
-            <marker date="1407794116000" expanded="true" signature="381:861" placeholder="..." />
-            <marker date="1407794116000" expanded="true" signature="403:854" placeholder="..." />
-            <marker date="1407794116000" expanded="true" signature="463:843" placeholder="..." />
-            <marker date="1407794116000" expanded="true" signature="808:827" placeholder="..." />
-            <marker date="1407794116000" expanded="true" signature="1067:2244" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,36 +794,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="73" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-20.916666" vertical-offset="428" max-vertical-offset="1095">
+        <state line="62" column="73" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="471" selection-end="576" vertical-scroll-proportion="-7.5" vertical-offset="120" max-vertical-offset="1605">
+        <state line="20" column="0" selection-start="471" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1605">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Java3DController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="118" selection-start="678" selection-end="707" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="1755">
+        <state line="27" column="118" selection-start="678" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Angband3DController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="576" selection-end="576" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1605">
+        <state line="24" column="33" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1605">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/angband3d/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="39" selection-start="756" selection-end="756" vertical-scroll-proportion="0.32125205" vertical-offset="285" max-vertical-offset="1470">
-          <folding />
+        <state line="40" column="33" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.42857143" vertical-offset="330" max-vertical-offset="1470">
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
