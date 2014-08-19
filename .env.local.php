@@ -3,7 +3,7 @@
 return array(
     'DB_MAIN'     => 'main',
     'DB_BUILDER'  => 'builder',
-    'DB_HOST'     => 'seg-fault-developer.cr3nazmupmxl.us-east-1.rds.amazonaws.com',
+    'DB_HOST'     => '127.0.0.1',
     'DB_USERNAME' => 'segfault',
-    'DB_PASSWORD' => 'Wurger12'
+    'DB_PASSWORD' => 'wurger12'
 );
