@@ -37,8 +37,8 @@ Angband 3D Project
                             Goals <br />
                             <span style="font-size: 10px;">(Green = Complete, Blue = Working On, Red = Incomplete)</span>
                             <ul class="list-group">
-                                <li class="list-group-item list-group-item-success">1) Make town</li>
-                                <li class="list-group-item list-group-item-info">2) Create Sewer Lvl 1</li>
+                                <li class="list-group-item list-group-item-info">1) Make town</li>
+                                <li class="list-group-item list-group-item-danger">2) Create Sewer Lvl 1</li>
                                 <li class="list-group-item list-group-item-danger">3) Add detail to town and sewer</li>
                                 <li class="list-group-item list-group-item-danger">4) Add objects with animations</li>
                                 <li class="list-group-item list-group-item-danger">5) Add townspeople</li>
@@ -50,28 +50,8 @@ Angband 3D Project
                         </td>
                     </tr>
                     <tr class="col-md-8 col-md-offset-1">
-                        <td>Main Town </td>
-                        <td><img width="600" src="../images/unity/angband3d/MainTown.png" /></td>
-                    </tr>
-                    <tr class="col-md-8 col-md-offset-1">
-                        <td>Sewer Entrance </td>
-                        <td><img width="600" src="../images/unity/angband3d/SewerEntrance.png" /></td>
-                    </tr>
-                    <tr class="col-md-8 col-md-offset-1">
-                        <td>Center of Town </td>
-                        <td><img width="600" src="../images/unity/angband3d/CenterTown.png" /></td>
-                    </tr>
-                    <tr class="col-md-8 col-md-offset-1">
-                        <td>Gate House </td>
-                        <td><img width="600" src="../images/unity/angband3d/GateHouse.png" /></td>
-                    </tr>
-                    <tr class="col-md-8 col-md-offset-1">
-                        <td>Sewer Wall </td>
-                        <td> <img width="600" src="../images/unity/angband3d/SewerWall.png" /></td>
-                    </tr>
-                    <tr class="col-md-8 col-md-offset-1">
-                        <td>Sewer Room </td>
-                        <td><img width="600" src="../images/unity/angband3d/SewerRoom.png" /></td>
+                        <td>Basic Terrain (I restarted so I could have a good starting terrain)</td>
+                        <td><img width="600" src="../images/unity/angband3d/BasicTerrain.png" /></td>
                     </tr>
                 </tbody>
             </table>
