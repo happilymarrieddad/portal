@@ -7,7 +7,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/spacelab/bootstrap.min.css" rel="stylesheet">
 
 </head>
-<body style="background-image: url('images/home-wormhole1.gif'); background-repeat:no-repeat  ;background-size: 100%">
+<body style="background-image: url('../images/home-wormhole1.gif'); background-repeat:no-repeat  ;background-size: 100%">
 
     @yield('content')
 
