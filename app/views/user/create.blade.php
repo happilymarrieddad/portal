@@ -1,4 +1,4 @@
-@extends('layouts.projects')
+@extends('layouts.sessions')
 
 
 @section('title')
