@@ -51,7 +51,7 @@ Angband 3D Project
                     </tr>
                     <tr class="col-md-8 col-md-offset-1">
                         <td>Basic Terrain (I restarted so I could have a good starting terrain)</td>
-                        <td><img width="600" src="../images/unity/angband3d/BasicTerrain.png" /></td>
+                        <td><img width="600" src="../images/angband3d/BasicTerrain.png" /></td>
                     </tr>
                 </tbody>
             </table>
