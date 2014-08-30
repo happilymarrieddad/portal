@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local'      => array('Administrators-MacBook-Pro-2.local'),
+	'local'      => array('Administrators-MacBook-Pro-2.local','administorsmbp2.pk5001z'),
     'production' => array('ip-172-31-27-108')
 
 ));

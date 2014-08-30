@@ -62,6 +62,11 @@ Route::resource('java3d', 'Java3DController', ['only'=>['index', 'show']]);
 Route::get('/angband3d', 'Angband3DController@index');
 Route::resource('angband3d', 'Angband3DController', ['only'=>['index']]);
 
+
+// ArmyBuilder Routes
+Route::get('/armybuilder', 'ArmyBuilderController@index');
+Route::resource('armybuilder', 'ArmyBuilderController', ['only'=>['index']]);
+
 // Catch All Route
 App::missing(function() {
     return Redirect::to('/');
