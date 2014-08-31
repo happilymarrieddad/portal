@@ -4,7 +4,7 @@
 
 <!-- Title of Page -->
 @section('title')
-Seg-Fault - Army Builder
+Seg-Fault - Army Builder v0.0010
 @stop
 
 
