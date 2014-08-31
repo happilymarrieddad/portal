@@ -33,7 +33,7 @@ Seg-Fault - Army Builder
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" id="button-home">Army Builder</a>
+            <a class="navbar-brand" href="/projects" id="button-home">Army Builder</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -97,7 +97,7 @@ Seg-Fault - Army Builder
 </nav>
 <div class="row">
     <div class="col-md-2 col-md-offset-5">
-        <button id="button-slide-army" type="button" class="btn btn-sm" style="background-color: inherit; border: none; display: none; font-size: 12px">Start Over &nbsp;<span class="caret"></span></button>
+        <button id="button-slide-army" type="button" class="btn btn-sm" style="background-color: inherit; border: none; display: none; font-size: 12px">New Army</button>
         <button id="button-clear-army" type="button" class="btn btn-sm pull-right" style="background-color: inherit; border: none; display: none; font-size: 12px">Clear</button>
     </div>
 </div>
@@ -138,19 +138,15 @@ Seg-Fault - Army Builder
     <div class="row build" id="build-army">
 
         <!-- Left Menu -->
-        <div class="col-md-2 panel" style="height: 200px">
+        <div class="col-md-3 panel" style="overflow-y: scroll">
             @include('armybuilder.lfantasy')
             @include('armybuilder.lfourtyk')
         </div>
 
-        <!-- Center Menu -->
-        <div class="col-md-6 col-md-offset-1 panel" style="height: 200px">
-
-        </div>
-
         <!-- Right Menu -->
-        <div class="col-md-2 col-md-offset-1 panel" style="height: 200px">
-
+        <div class="col-md-8 col-md-offset-1 panel" style="height: 600px; overflow-y: scroll">
+            @include('armybuilder.rfantasy')
+            @include('armybuilder.rfourtyk')
         </div>
     </div>
 </div>
