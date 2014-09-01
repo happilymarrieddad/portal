@@ -7,10 +7,6 @@ $(function() {
     var display = {};
     var tbody = {};
 
-    var tpoints = null;
-    var used = 0;
-    var left = null;
-
     var hq = 0;
     var troops = 0;
     var elites = 0;
@@ -30,8 +26,8 @@ $(function() {
         ui.title = $('#army-title');
 
         tbody.hq = $('#fourtyk-hq');
-        tbody.troops = $('#fourtyk-elites');
-        tbody.elites = $('#fourtyk-troops');
+        tbody.troops = $('#fourtyk-troops');
+        tbody.elites = $('#fourtyk-elites');
         tbody.fastattack = $('#fourtyk-fastattack');
         tbody.heavysupport = $('#fourtyk-heavysupport');
 
@@ -94,7 +90,6 @@ $(function() {
 
         display.used = $('#display-used');
         display.left = $('#display-left');
-        display.used.text((String) (used));
         display.totalunits = $('#display-totalunits');
 
 
@@ -352,31 +347,29 @@ $(function() {
 
 
         input.totalpoints.keyup(function() {
+            tell('alert.hide');
             var val = $(this).val();
             display.used.text((String) (used));
             if(isNaN(val))
             {
                 $(this).val('');
-                display.left.text((String) (0));
                 ui.barmy.hide();
                 tell('alert.error', 'Points must be a valid number.');
             }
             else if(val < 1)
             {
                 ui.barmy.hide();
-                display.left.text((String) (0));
                 tell('alert.error', 'Points must be a positive number');
             }
             else if(val > 50000)
             {
                 ui.barmy.hide();
-                display.left.text((String) (0));
                 tell('alert.error', 'Current points limit is 50,000. Please adjust your total amount.');
             }
             else
             {
                 tpoints = val;
-                display.left.text(parseInt(tpoints - used).formatMoney(0,'.',','));
+                tell('update-points-display');
                 ui.barmy.show();
             }
         });
@@ -501,5 +494,15 @@ $(function() {
         heavysupport += val;
         totalunits += val;
         tell('check');
+    });
+
+    listen('update-points-display', function() {
+        display.used.text(used);
+        display.left.text(parseInt(tpoints) - parseInt(used));
+    });
+
+    listen('adjust-used', function(val) {
+        used += val;
+        tell('update-points-display');
     });
 });

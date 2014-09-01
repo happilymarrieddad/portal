@@ -5,7 +5,11 @@ $(document).ready(function () {
 });
 
 // Global Variables
-var troopid = 0x3b8a;
+var troopid = 49;
+var points = {};
+var tpoints = null;
+var used = 0;
+var left = 0;
 
 Number.prototype.formatMoney = function(c, d, t){
     var n = this,

@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/armybuilder.css" afterPath="$PROJECT_DIR$/public/css/armybuilder.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/functions.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/page.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portal.iws" />
@@ -34,64 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/armybuilder/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="60" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.787037" vertical-offset="750" max-vertical-offset="3150">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#15;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#16;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#18;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="45" column="32" selection-start="1455" selection-end="1455" vertical-scroll-proportion="50.0" vertical-offset="1875" max-vertical-offset="3255">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="militarum.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rfourtyk.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="militarum.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="319" column="0" selection-start="10099" selection-end="10099" vertical-scroll-proportion="0.0" vertical-offset="4355" max-vertical-offset="5055">
+            <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.6691176" vertical-offset="5590" max-vertical-offset="10245">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="armybuilder.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/armybuilder.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -100,7 +70,7 @@
       <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/armybuilder/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="36" selection-start="739" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7650">
+            <state line="497" column="0" selection-start="16349" selection-end="16349" vertical-scroll-proportion="0.0" vertical-offset="7046" max-vertical-offset="7695">
               <folding />
             </state>
           </provider>
@@ -109,7 +79,7 @@
       <file leaf-file-name="troops.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="473" selection-end="473" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+            <state line="3" column="6" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -131,7 +101,6 @@
         <option value="$PROJECT_DIR$/app/views/armybuilder/lfantasy.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/ArmyBuilderController.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/rfantasy.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/armybuilder.css" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/lfourtyk.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/hq.blade.php" />
         <option value="$PROJECT_DIR$/public/js/armybuilder.js" />
@@ -170,23 +139,24 @@
         <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/warriors.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/armybuilder.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/woodelves.js" />
-        <option value="$PROJECT_DIR$/public/js/armybuilder/functions.js" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/armybuilder/page.js" />
-        <option value="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/armybuilder/functions.js" />
+        <option value="$PROJECT_DIR$/public/css/armybuilder.css" />
+        <option value="$PROJECT_DIR$/public/js/armybuilder/page.js" />
+        <option value="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="23" />
-    <option name="width" value="1117" />
+    <option name="x" value="486" />
+    <option name="y" value="22" />
+    <option name="width" value="948" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -521,7 +491,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="illuminate" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../armybuilder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../event-store-php" />
     <property name="FullScreen" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
@@ -621,7 +591,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="23" width="1117" height="790" extended-state="0" />
+    <frame x="486" y="22" width="948" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -629,10 +599,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29811996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30801687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.011095701" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.011095701" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -644,6 +614,27 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.009708738" sideWeight="0.49952245" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.011095701" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30801687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -664,420 +655,274 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="77" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.7936" vertical-offset="509" max-vertical-offset="1170">
+        <state line="3" column="6" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="77" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.7936" vertical-offset="509" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ArmyBuilderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.384" vertical-offset="30" max-vertical-offset="1695">
-          <folding />
-        </state>
+        <state line="18" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.384" vertical-offset="30" max-vertical-offset="1695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/armybuilder/lfantasy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfantasy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="40" selection-end="40" vertical-scroll-proportion="0.047021944" vertical-offset="0" max-vertical-offset="638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/armybuilder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="54" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="2" column="6" selection-start="40" selection-end="40" vertical-scroll-proportion="0.047021944" vertical-offset="0" max-vertical-offset="638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/startup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sororitas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/bloodangels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/daemons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/chaosmarines.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/darkangels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/darkeldar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/eldar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="38" selection-end="38" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="38" selection-end="38" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/greyknights.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/inquisition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/imperialknights.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/assassinorum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="53" selection-end="53" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="53" selection-end="53" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/tempestus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/necrons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/orks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/spacemarines.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/spacewolves.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/tau.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/tyranids.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/beastmen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/bretonnia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/daemons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="49" selection-end="49" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/darkelves.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/dwarfs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/highelves.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/lizardmen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/ogre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/orcs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/skaven.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/empire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/tombkings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.04379562" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.04379562" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/vampire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/warriors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fantasy/woodelves.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="2370">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06569343" vertical-offset="0" max-vertical-offset="685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/armybuilder/lfourtyk.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="154" selection-start="237" selection-end="261" vertical-scroll-proportion="0.11574074" vertical-offset="0" max-vertical-offset="1155">
+        <state line="5" column="154" selection-start="237" selection-end="261" vertical-scroll-proportion="0.11574074" vertical-offset="0" max-vertical-offset="1155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="729" selection-end="763" vertical-scroll-proportion="0.11574074" vertical-offset="0" max-vertical-offset="648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/hq.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="1823" selection-end="1996" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="181" selection-start="956" selection-end="956" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="176" selection-start="926" selection-end="926" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="893" selection-end="893" vertical-scroll-proportion="0.54075235" vertical-offset="0" max-vertical-offset="705">
-          <folding>
-            <element signature="n#style#0;n#legend#0;n#table#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="729" selection-end="763" vertical-scroll-proportion="0.11574074" vertical-offset="0" max-vertical-offset="648">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/hq.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="1823" selection-end="1996" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="181" selection-start="956" selection-end="956" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#5;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="176" selection-start="926" selection-end="926" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#5;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/troops.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="473" selection-end="473" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="739" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="0" selection-start="10099" selection-end="10099" vertical-scroll-proportion="0.0" vertical-offset="4355" max-vertical-offset="5055">
+        <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/armybuilder/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="60" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.787037" vertical-offset="750" max-vertical-offset="3150">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#15;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#16;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#18;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="45" column="32" selection-start="1455" selection-end="1455" vertical-scroll-proportion="50.0" vertical-offset="1875" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/armybuilder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="241" selection-end="241" vertical-scroll-proportion="-2.4899845" vertical-offset="1781" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="497" column="0" selection-start="16349" selection-end="16349" vertical-scroll-proportion="0.0" vertical-offset="7046" max-vertical-offset="7695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.6691176" vertical-offset="5590" max-vertical-offset="10245">
+          <folding />
         </state>
       </provider>
     </entry>
