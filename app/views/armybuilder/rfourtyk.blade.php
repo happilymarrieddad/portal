@@ -17,7 +17,7 @@
         </div><br />
 
         <div class="fourtyk-troops" style="display: none">
-            <table class="table table-hover>
+            <table class="table table-hover">
                 <legend class="text-center" style="font-size:16px">Troops</legend>
                 <tbody id="fourtyk-troops"></tbody>
             </table>

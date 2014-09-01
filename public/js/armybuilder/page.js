@@ -5,10 +5,18 @@ $(function() {
     var ui = {};
     var input = {};
     var display = {};
+    var tbody = {};
 
     var tpoints = null;
     var used = 0;
     var left = null;
+
+    var hq = 0;
+    var troops = 0;
+    var elites = 0;
+    var fastattack = 0;
+    var heavysupport = 0;
+    var totalunits = 0;
 
     listen('bind', function () {
         // Divs for the program
@@ -20,6 +28,12 @@ $(function() {
         ui.bpoints = $('#build-points');
         ui.barmy = $('#build-army');
         ui.title = $('#army-title');
+
+        tbody.hq = $('#fourtyk-hq');
+        tbody.troops = $('#fourtyk-elites');
+        tbody.elites = $('#fourtyk-troops');
+        tbody.fastattack = $('#fourtyk-fastattack');
+        tbody.heavysupport = $('#fourtyk-heavysupport');
 
         // Slider buttons for the menus and the clear button
         button.mainslider = $('#button-slide-main');
@@ -81,6 +95,7 @@ $(function() {
         display.used = $('#display-used');
         display.left = $('#display-left');
         display.used.text((String) (used));
+        display.totalunits = $('#display-totalunits');
 
 
         button.mainslider.bind('click', function(e) {
@@ -95,6 +110,7 @@ $(function() {
 
         button.cleararmy.bind('click', function(e) {
             e.preventDefault();
+            tell('clear');
         });
 
         // fantasy
@@ -385,7 +401,105 @@ $(function() {
         tell('alert.success', 'Successfully loaded ' + val[0]);
     });
 
-    listen('toggle-hq', function() {
+    listen('hq-hide', function() {
+        $('.fourtyk-hq').hide();
+    });
+    listen('elites-hide', function() {
+        $('.fourtyk-elites').hide();
+    });
+    listen('troops-hide', function() {
+        $('.fourtyk-troops').hide();
+    });
+    listen('fastattack-hide', function() {
+        $('.fourtyk-fastattack').hide();
+    });
+    listen('heavysupport-hide', function() {
+        $('.fourtyk-heavysupport').hide();
+    });
 
+    listen('hq-show', function() {
+        $('.fourtyk-hq').show();
+    });
+    listen('elites-show', function() {
+        $('.fourtyk-elites').show();
+    });
+    listen('troops-show', function() {
+        $('.fourtyk-troops').show();
+    });
+    listen('fastattack-show', function() {
+        $('.fourtyk-fastattack').show();
+    });
+    listen('heavysupport-show', function() {
+        $('.fourtyk-heavysupport').show();
+    });
+
+    listen('check', function() {
+        if(hq == 0)
+        {
+            tell('hq-hide');
+            tbody['hq'].html('');
+        }
+        else tell('hq-show');
+        if(elites == 0)
+        {
+            tell('elites-hide');
+            tbody['elites'].html('');
+        }
+        else tell('elites-show');
+        if(troops == 0)
+        {
+            tell('troops-hide');
+            tbody['troops'].html('');
+        }
+        else tell('troops-show');
+        if(fastattack == 0)
+        {
+            tell('fastattack-hide');
+            tbody['fastattack'].html('');
+        }
+        else tell('fastattack-show');
+        if(heavysupport == 0)
+        {
+            tell('heavysupport-hide');
+            tbody['heavysupport'].html('');
+        }
+        else tell('heavysupport-show');
+        display.totalunits.text(totalunits);
+    });
+
+    listen('clear', function() {
+        hq = 0;
+        elites = 0;
+        troops = 0;
+        fastattack = 0;
+        heavysupport = 0;
+        totalunits = 0;
+        tell('check');
+    });
+
+    listen('adjust-hq', function(val) {
+        hq += val;
+        totalunits += val;
+        tell('check');
+    });
+    listen('adjust-elites', function(val) {
+        elites += val;
+        totalunits += val;
+        tell('check');
+    });
+    listen('adjust-troops', function(val) {
+        troops += val;
+        totalunits += val;
+        tell('check');
+    });
+    listen('adjust-fastattack', function(val) {
+        fastattack += val;
+        totalunits += val;
+        tell('check');
+    });
+    listen('adjust-heavysupport', function(val) {
+        heavysupport += val;
+        totalunits += val;
+        tell('check');
     });
 });

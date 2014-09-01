@@ -4,6 +4,9 @@ $(document).ready(function () {
     });
 });
 
+// Global Variables
+var troopid = 0x3b8a;
+
 Number.prototype.formatMoney = function(c, d, t){
     var n = this,
         c = isNaN(c = Math.abs(c)) ? 2 : c,

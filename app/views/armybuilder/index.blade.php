@@ -43,21 +43,21 @@ Seg-Fault - Army Builder v0.0010
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle myFakeClass" data-toggle="dropdown"> Warhammer Fantasy <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a id="button-beastmen">Beastmen</a></li>
-                        <li><a id="button-bretonnia">Bretonnia</a></li>
-                        <li><a id="button-fdaemons">Daemons of Chaos</a></li>
-                        <li><a id="button-darkelves">Dark Elves</a></li>
-                        <li><a id="button-dwarfs">Dwarfs</a></li>
-                        <li><a id="button-highelves">High Elves</a></li>
-                        <li><a id="button-lizardmen">Lizardmen</a></li>
-                        <li><a id="button-ogre">Ogre Kingdoms</a></li>
-                        <li><a id="button-orcsgoblins">Orcs & Goblins</a></li>
-                        <li><a id="button-skaven">Skaven</a></li>
-                        <li><a id="button-empire">The Empire</a></li>
-                        <li><a id="button-tombkings">Tomb Kings</a></li>
-                        <li><a id="button-vampire">Vampire Counts</a></li>
-                        <li><a id="button-chaoswarriors">Warriors of Chaos</a></li>
-                        <li><a id="button-woodelves">Wood Elves</a></li>
+                        <li><a id="button-beastmen" style="color:red">Beastmen</a></li>
+                        <li><a id="button-bretonnia" style="color:red">Bretonnia</a></li>
+                        <li><a id="button-fdaemons" style="color:red">Daemons of Chaos</a></li>
+                        <li><a id="button-darkelves" style="color:red">Dark Elves</a></li>
+                        <li><a id="button-dwarfs" style="color:red">Dwarfs</a></li>
+                        <li><a id="button-highelves" style="color:red">High Elves</a></li>
+                        <li><a id="button-lizardmen" style="color:red">Lizardmen</a></li>
+                        <li><a id="button-ogre" style="color:red">Ogre Kingdoms</a></li>
+                        <li><a id="button-orcsgoblins" style="color:red">Orcs & Goblins</a></li>
+                        <li><a id="button-skaven" style="color:red">Skaven</a></li>
+                        <li><a id="button-empire" style="color:red">The Empire</a></li>
+                        <li><a id="button-tombkings" style="color:red">Tomb Kings</a></li>
+                        <li><a id="button-vampire" style="color:red">Vampire Counts</a></li>
+                        <li><a id="button-chaoswarriors" style="color:red">Warriors of Chaos</a></li>
+                        <li><a id="button-woodelves" style="color:red">Wood Elves</a></li>
                     </ul>
                 </li>
 
@@ -65,25 +65,25 @@ Seg-Fault - Army Builder v0.0010
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle myFakeClass" data-toggle="dropdown"> Warhammer 40,000 <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a id="button-sororitas">Adepta Sororitas</a></li>
-                        <li><a id="button-militarum">Astra Militarum</a></li>
-                        <li><a id="button-bloodangels">Blood Angels</a></li>
-                        <li><a id="button-kdaemons">Chaos Daemons</a></li>
-                        <li><a id="button-chaosmarines">Chaos Space Marines</a></li>
-                        <li><a id="button-darkangels">Dark Angels</a></li>
-                        <li><a id="button-darkeldar">Dark Eldar</a></li>
-                        <li><a id="button-eldar">Eldar</a></li>
-                        <li><a id="button-greyknights">Grey Knights</a></li>
-                        <li><a id="button-inquisition">Inquisition</a></li>
-                        <li><a id="button-imperialknights">Imperial Knights</a></li>
-                        <li><a id="button-assassinorum">Officio Assassinorum</a></li>
-                        <li><a id="button-tempestus">Militarum Tempestus</a></li>
-                        <li><a id="button-necrons">Necrons</a></li>
-                        <li><a id="button-orks">Orks</a></li>
-                        <li><a id="button-spacemarines">Space Marines</a></li>
-                        <li><a id="button-spacewolves">Space Wolves</a></li>
-                        <li><a id="button-tau">Tau Empire</a></li>
-                        <li><a id="button-tyranids">Tyranids</a></li>
+                        <li><a id="button-sororitas" style="color:red">Adepta Sororitas</a></li>
+                        <li><a id="button-militarum" style="color:green">Astra Militarum</a></li>
+                        <li><a id="button-bloodangels" style="color:red">Blood Angels</a></li>
+                        <li><a id="button-kdaemons" style="color:red">Chaos Daemons</a></li>
+                        <li><a id="button-chaosmarines" style="color:red">Chaos Space Marines</a></li>
+                        <li><a id="button-darkangels" style="color:red">Dark Angels</a></li>
+                        <li><a id="button-darkeldar" style="color:red">Dark Eldar</a></li>
+                        <li><a id="button-eldar" style="color:red">Eldar</a></li>
+                        <li><a id="button-greyknights" style="color:red">Grey Knights</a></li>
+                        <li><a id="button-inquisition" style="color:red">Inquisition</a></li>
+                        <li><a id="button-imperialknights" style="color:red">Imperial Knights</a></li>
+                        <li><a id="button-assassinorum" style="color:red">Officio Assassinorum</a></li>
+                        <li><a id="button-tempestus" style="color:red">Militarum Tempestus</a></li>
+                        <li><a id="button-necrons" style="color:red">Necrons</a></li>
+                        <li><a id="button-orks" style="color:red">Orks</a></li>
+                        <li><a id="button-spacemarines" style="color:red">Space Marines</a></li>
+                        <li><a id="button-spacewolves" style="color:red">Space Wolves</a></li>
+                        <li><a id="button-tau" style="color:red">Tau Empire</a></li>
+                        <li><a id="button-tyranids" style="color:red">Tyranids</a></li>
                     </ul>
                 </li>
             </ul>
@@ -119,18 +119,20 @@ Seg-Fault - Army Builder v0.0010
                 <div class="col-sm-6 col-sm-offset-3 text-center row">
                     <span id="army-title"></span>
                 </div><br />
-                    <label for="totalpoints">Army Points</label>
-                    <input type="text" size="6" id="input-points" />
+                <label for="totalpoints">Army Points</label>
+                <input type="text" size="6" id="input-points" />
 
-                    <div class="pull-right">
-                        <div class="row">
-                            Points Left: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-left" style="color:green">0</span>
-                        </div>
-                        <div class="row">
-                            Points Used: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-used" style="color:red">0</span>
-                        </div>
+                <div class="pull-right">
+                    <div class="row">
+                        Points Left: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-left" style="color:green">0</span>
                     </div>
-
+                    <div class="row">
+                        Points Used: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-used" style="color:red">0</span>
+                    </div>
+                    <div class="row">
+                        Total Units: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-totalunits" style="color:white">0</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
