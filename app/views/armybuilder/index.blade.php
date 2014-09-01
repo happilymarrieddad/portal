@@ -73,7 +73,7 @@ Seg-Fault - Army Builder v0.0010
                     <a href="#" class="dropdown-toggle myFakeClass" data-toggle="dropdown"> Warhammer 40,000 <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a id="button-sororitas" style="color:red">Adepta Sororitas</a></li>
-                        <li><a id="button-militarum" style="color:blue">Astra Militarum</a></li>
+                        <li><a id="button-militarum" style="color:lightblue">Astra Militarum</a></li>
                         <li><a id="button-bloodangels" style="color:red">Blood Angels</a></li>
                         <li><a id="button-kdaemons" style="color:red">Chaos Daemons</a></li>
                         <li><a id="button-chaosmarines" style="color:red">Chaos Space Marines</a></li>

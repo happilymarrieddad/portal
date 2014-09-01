@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/armybuilder.css" afterPath="$PROJECT_DIR$/public/css/armybuilder.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/functions.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/armybuilder/page.js" afterPath="$PROJECT_DIR$/public/js/armybuilder/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" afterPath="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/armybuilder/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="32" selection-start="1455" selection-end="1455" vertical-scroll-proportion="50.0" vertical-offset="1875" max-vertical-offset="3255">
+            <state line="75" column="72" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.8231707" vertical-offset="585" max-vertical-offset="3255">
               <folding />
             </state>
           </provider>
@@ -43,16 +37,16 @@
       <file leaf-file-name="rfourtyk.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
+            <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-17.25" vertical-offset="21" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="militarum.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="militarum.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.6691176" vertical-offset="5590" max-vertical-offset="10245">
+            <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.0" vertical-offset="3490" max-vertical-offset="10245">
               <folding />
             </state>
           </provider>
@@ -143,12 +137,12 @@
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/elites.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/fastattack.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/larmies/militarum/heavysupport.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/functions.js" />
         <option value="$PROJECT_DIR$/public/css/armybuilder.css" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/page.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js" />
+        <option value="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" />
       </list>
     </option>
   </component>
@@ -884,20 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1455" selection-end="1455" vertical-scroll-proportion="50.0" vertical-offset="1875" max-vertical-offset="3255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/armybuilder.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -921,7 +901,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/militarum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.6691176" vertical-offset="5590" max-vertical-offset="10245">
+        <state line="403" column="27" selection-start="15894" selection-end="15894" vertical-scroll-proportion="0.0" vertical-offset="3490" max-vertical-offset="10245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/rfourtyk.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-17.25" vertical-offset="21" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="72" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.8231707" vertical-offset="585" max-vertical-offset="3255">
           <folding />
         </state>
       </provider>
