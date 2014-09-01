@@ -1,0 +1,4 @@
+// Officio Assassinorum functions
+$(function() {
+
+});

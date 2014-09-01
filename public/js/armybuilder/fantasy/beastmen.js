@@ -1,0 +1,4 @@
+// Beastmen functions
+$(function() {
+
+});

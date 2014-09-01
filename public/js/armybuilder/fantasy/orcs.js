@@ -1,0 +1,4 @@
+// Orcs & Goblins functions
+$(function() {
+
+});

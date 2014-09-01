@@ -1,0 +1,4 @@
+// Lizardmen functions
+$(function() {
+
+});

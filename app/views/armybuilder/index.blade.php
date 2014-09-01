@@ -155,5 +155,49 @@ Seg-Fault - Army Builder v0.0010
 
 <!-- Scripts like Javascript -->
 @section('scripts')
-<script src="js/armybuilder.js"></script>
+<!-- Main Script -->
+<script src="js/armybuilder/functions.js"></script>
+<script src="js/armybuilder/page.js"></script>
+
+<!-- 40k scripts -->
+<script src="js/armybuilder/fourtyk/sororitas.js"></script>
+<script src="js/armybuilder/fourtyk/militarum.js"></script>
+<script src="js/armybuilder/fourtyk/bloodangels.js"></script>
+<script src="js/armybuilder/fourtyk/daemons.js"></script>
+<script src="js/armybuilder/fourtyk/chaosmarines.js"></script>
+<script src="js/armybuilder/fourtyk/darkangels.js"></script>
+<script src="js/armybuilder/fourtyk/darkeldar.js"></script>
+<script src="js/armybuilder/fourtyk/eldar.js"></script>
+<script src="js/armybuilder/fourtyk/greyknights.js"></script>
+<script src="js/armybuilder/fourtyk/inquisition.js"></script>
+<script src="js/armybuilder/fourtyk/imperialknights.js"></script>
+<script src="js/armybuilder/fourtyk/assassinorum.js"></script>
+<script src="js/armybuilder/fourtyk/tempestus.js"></script>
+<script src="js/armybuilder/fourtyk/necrons.js"></script>
+<script src="js/armybuilder/fourtyk/orks.js"></script>
+<script src="js/armybuilder/fourtyk/spacemarines.js"></script>
+<script src="js/armybuilder/fourtyk/spacewolves.js"></script>
+<script src="js/armybuilder/fourtyk/tau.js"></script>
+<script src="js/armybuilder/fourtyk/tyranids.js"></script>
+
+<!-- Fantasy scripts -->
+<script src="js/armybuilder/fantasy/beastmen.js"></script>
+<script src="js/armybuilder/fantasy/bretonnia.js"></script>
+<script src="js/armybuilder/fantasy/daemons.js"></script>
+<script src="js/armybuilder/fantasy/darkelves.js"></script>
+<script src="js/armybuilder/fantasy/dwarfs.js"></script>
+<script src="js/armybuilder/fantasy/highelves.js"></script>
+<script src="js/armybuilder/fantasy/lizardmen.js"></script>
+<script src="js/armybuilder/fantasy/ogre.js"></script>
+<script src="js/armybuilder/fantasy/orcs.js"></script>
+<script src="js/armybuilder/fantasy/skaven.js"></script>
+<script src="js/armybuilder/fantasy/empire.js"></script>
+<script src="js/armybuilder/fantasy/tombkings.js"></script>
+<script src="js/armybuilder/fantasy/vampire.js"></script>
+<script src="js/armybuilder/fantasy/warriors.js"></script>
+<script src="js/armybuilder/fantasy/woodelves.js"></script>
+
+<!-- Final scripts -->
+<script src="js/armybuilder/startup.js"></script>
+
 @stop

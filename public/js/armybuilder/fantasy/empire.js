@@ -1,0 +1,4 @@
+// The Empire functions
+$(function() {
+
+});

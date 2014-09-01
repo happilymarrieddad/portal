@@ -1,0 +1,4 @@
+// Eldar functions
+$(function() {
+
+});

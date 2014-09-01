@@ -1,0 +1,4 @@
+// Tomb Kings functions
+$(function() {
+
+});

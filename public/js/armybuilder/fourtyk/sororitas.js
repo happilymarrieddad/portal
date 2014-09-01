@@ -1,0 +1,4 @@
+// Adepta Sororitas functions
+$(function() {
+
+});

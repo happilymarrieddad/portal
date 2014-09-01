@@ -1,0 +1,4 @@
+// Ogre Kingdoms functions
+$(function() {
+
+});

@@ -1,0 +1,4 @@
+// Inquisition functions
+$(function() {
+
+});
