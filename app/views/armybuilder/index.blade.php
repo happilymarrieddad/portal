@@ -147,13 +147,13 @@ Seg-Fault - Army Builder v0.0010
     <div class="row build" id="build-army">
 
         <!-- Left Menu -->
-        <div class="col-md-3 panel" style="overflow-y: scroll">
+        <div class="col-md-3 panel">
             @include('armybuilder.lfantasy')
             @include('armybuilder.lfourtyk')
         </div>
 
         <!-- Right Menu -->
-        <div class="col-md-8 col-md-offset-1 panel" style="height: 600px; overflow-y: scroll">
+        <div class="col-md-8 col-md-offset-1 panel">
             @include('armybuilder.rfantasy')
             @include('armybuilder.rfourtyk')
         </div>
