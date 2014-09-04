@@ -12,7 +12,7 @@
 </head>
 @yield('body')
 
-<div class="navbar navbar-inverse" id="menu-main" style="display: none">
+<div class="navbar navbar-inverse" id="menu-main">
     <div class="navbar-collapse collapse navbar-responsive-collapse">
         <ul class="nav navbar-nav">
             <li><a href="/home">Home</a></li>

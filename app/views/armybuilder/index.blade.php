@@ -4,7 +4,7 @@
 
 <!-- Title of Page -->
 @section('title')
-Seg-Fault - Army Builder v0.0010
+Seg-Fault - Army Builder v0.0001
 @stop
 
 
@@ -12,7 +12,6 @@ Seg-Fault - Army Builder v0.0010
 @section('links')
 <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/slate/bootstrap.min.css" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="css/armybuilder.css" rel="stylesheet" type="text/css" />
 @stop
 
 
@@ -24,151 +23,186 @@ Seg-Fault - Army Builder v0.0010
 
 <!-- Page Contents -->
 @section('content')
-<nav class="navbar navbar-default" role="navigation" id="menu-army" >
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/projects" id="button-home">Army Builder</a>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div class="container-fluid">
+
+    <div class="row text-center">
+
+        <div class="col-md-2 col-md-offset-1 panel">
+            <table class="table">
+                <legend><img src="images/armybuilder/warhammer.png" alt="warhammer fantasy image" style="width:100%; max-width: 200px;" /></legend>
+                <tbody>
+                    <tr>
+                        <td><a id="button-beastmen" class="btn btn-danger btn-block">Beastmen</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-bretonnia" class="btn btn-danger btn-block">Bretonnia</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-fdaemons" class="btn btn-danger btn-block">Daemons of Chaos</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-darkelves" class="btn btn-danger btn-block">Dark Elves</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-dwarfs" class="btn btn-danger btn-block">Dwarfs</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-highelves" class="btn btn-danger btn-block">High Elves</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-lizardmen" class="btn btn-danger btn-block">Lizardmen</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-ogre" class="btn btn-danger btn-block">Ogre Kingdoms</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-orcsgoblins" class="btn btn-danger btn-block">Orcs & Goblins</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-skaven" class="btn btn-danger btn-block">Skaven</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-empire" class="btn btn-danger btn-block">The Empire</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-tombkings" class="btn btn-danger btn-block">Tomb Kings</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-vampire" class="btn btn-danger btn-block">Vampire Counts</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-chaoswarriors" class="btn btn-danger btn-block">Warriors of Chaos</a></td>
+                    </tr>
+                    <tr>
+                        <td><a id="button-woodelves" class="btn btn-danger btn-block">Wood Elves</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <!-- MENU -->
-            <ul class="nav navbar-nav">
-
-                <!--
-                RED   - NOT WORKING ON
-                BLUE  - WORKING ON
-                GREEN - COMPLETE
-                -->
-
-                <!-- Warhammer Fantasy -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle myFakeClass" data-toggle="dropdown"> Warhammer Fantasy <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a id="button-beastmen" style="color:red">Beastmen</a></li>
-                        <li><a id="button-bretonnia" style="color:red">Bretonnia</a></li>
-                        <li><a id="button-fdaemons" style="color:red">Daemons of Chaos</a></li>
-                        <li><a id="button-darkelves" style="color:red">Dark Elves</a></li>
-                        <li><a id="button-dwarfs" style="color:red">Dwarfs</a></li>
-                        <li><a id="button-highelves" style="color:red">High Elves</a></li>
-                        <li><a id="button-lizardmen" style="color:red">Lizardmen</a></li>
-                        <li><a id="button-ogre" style="color:red">Ogre Kingdoms</a></li>
-                        <li><a id="button-orcsgoblins" style="color:red">Orcs & Goblins</a></li>
-                        <li><a id="button-skaven" style="color:red">Skaven</a></li>
-                        <li><a id="button-empire" style="color:red">The Empire</a></li>
-                        <li><a id="button-tombkings" style="color:red">Tomb Kings</a></li>
-                        <li><a id="button-vampire" style="color:red">Vampire Counts</a></li>
-                        <li><a id="button-chaoswarriors" style="color:red">Warriors of Chaos</a></li>
-                        <li><a id="button-woodelves" style="color:red">Wood Elves</a></li>
-                    </ul>
-                </li>
-
-                <!-- Warhammer 40k -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle myFakeClass" data-toggle="dropdown"> Warhammer 40,000 <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a id="button-sororitas" style="color:red">Adepta Sororitas</a></li>
-                        <li><a id="button-militarum" style="color:lightblue">Astra Militarum</a></li>
-                        <li><a id="button-bloodangels" style="color:red">Blood Angels</a></li>
-                        <li><a id="button-kdaemons" style="color:red">Chaos Daemons</a></li>
-                        <li><a id="button-chaosmarines" style="color:red">Chaos Space Marines</a></li>
-                        <li><a id="button-darkangels" style="color:red">Dark Angels</a></li>
-                        <li><a id="button-darkeldar" style="color:red">Dark Eldar</a></li>
-                        <li><a id="button-eldar" style="color:red">Eldar</a></li>
-                        <li><a id="button-greyknights" style="color:red">Grey Knights</a></li>
-                        <li><a id="button-inquisition" style="color:red">Inquisition</a></li>
-                        <li><a id="button-imperialknights" style="color:red">Imperial Knights</a></li>
-                        <li><a id="button-assassinorum" style="color:red">Officio Assassinorum</a></li>
-                        <li><a id="button-tempestus" style="color:red">Militarum Tempestus</a></li>
-                        <li><a id="button-necrons" style="color:red">Necrons</a></li>
-                        <li><a id="button-orks" style="color:red">Orks</a></li>
-                        <li><a id="button-spacemarines" style="color:red">Space Marines</a></li>
-                        <li><a id="button-spacewolves" style="color:red">Space Wolves</a></li>
-                        <li><a id="button-tau" style="color:red">Tau Empire</a></li>
-                        <li><a id="button-tyranids" style="color:red">Tyranids</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav pull-right">
-                <li>
-                    <button id="button-slide-main" type="button" class="btn btn-sm" style="background-color: inherit; border: none">Main Menu<span class="caret"></span></button>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="row">
-    <div class="col-md-2 col-md-offset-5">
-        <button id="button-slide-army" type="button" class="btn btn-sm" style="background-color: inherit; border: none; display: none; font-size: 12px">New Army</button>
-        <button id="button-clear-army" type="button" class="btn btn-sm pull-right" style="background-color: inherit; border: none; display: none; font-size: 12px">Clear</button>
-    </div>
-</div>
-
-<!-- Messaging System -->
-<div class="row">
-    <div class="text-center">
-        <button style="display:none" class="btn btn-sm btn-danger" id="alert-error"></button>
-        <button class="btn btn-sm btn-info" id="alert-loading">Loading Systems...</button>
-        <button style="display:none" class="btn btn-sm btn-success" id="alert-success"></button>
-    </div>
-</div><br />
-
-<div class="container build" id="build-system">
-
-    <div class="row build" id="build-points">
-        <div class="col-md-10 col-md-offset-1 panel" style="height: 100px; padding: 20px">
-            <div class="form-group">
-                <div class="col-sm-6 col-sm-offset-3 text-center row">
-                    <span id="army-title"></span>
-                </div><br />
-                <label for="totalpoints">Army Points</label>
-                <input type="text" size="6" id="input-points" />
-
-                <div class="pull-right">
-                    <div class="row">
-                        Points Left: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-left" style="color:green">0</span>
-                    </div>
-                    <div class="row">
-                        Points Used: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-used" style="color:red">0</span>
-                    </div>
-                    <div class="row">
-                        Total Units: &nbsp;&nbsp;&nbsp;<span class="pull-right" id="display-totalunits" style="color:white">0</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row build" id="build-army">
-
-        <!-- Left Menu -->
-        <div class="col-md-3 panel">
-            @include('armybuilder.lfantasy')
-            @include('armybuilder.lfourtyk')
+        <div class="col-md-2 col-md-offset-2 panel">
+            <table class="table">
+                <legend><img src="images/armybuilder/40klogo.png" alt="warhammer 40k image" style="width:100%; max-width: 200px;" /></legend>
+                <tbody>
+                <tr>
+                    <td>
+                        <a id="button-sororitas" class="btn btn-danger btn-block">Adepta Sororitas</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-militarum" class="btn btn-danger btn-block">Astra Militarum</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-bloodangels" class="btn btn-danger btn-block">Blood Angels</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-kdaemons" class="btn btn-danger btn-block">Chaos Daemons</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-chaosmarines" class="btn btn-danger btn-block">Chaos Space Marines</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-darkangels" class="btn btn-danger btn-block">Dark Angels</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-darkeldar" class="btn btn-danger btn-block">Dark Eldar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-eldar" class="btn btn-danger btn-block">Eldar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-greyknights" class="btn btn-danger btn-block">Grey Knights</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-inquisition" class="btn btn-danger btn-block">Inquisition</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-imperialknights" class="btn btn-danger btn-block">Imperial Knights</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-tempestus" class="btn btn-danger btn-block">Militarum Tempestus</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-necrons" class="btn btn-danger btn-block">Necrons</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-orks" class="btn btn-danger btn-block">Orks</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{ HTML::linkRoute('sm.index', 'Space Marines', array(), array('class'=>'btn btn-info btn-block')) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{ HTML::linkRoute('sw.index', 'Space Wolves', array(), array('class'=>'btn btn-info btn-block')) }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-tau" class="btn btn-danger btn-block">Tau Empire</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="button-tyranids" class="btn btn-danger btn-block">Tyranids</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
 
-        <!-- Right Menu -->
-        <div class="col-md-8 col-md-offset-1 panel">
-            @include('armybuilder.rfantasy')
-            @include('armybuilder.rfourtyk')
+        <div class="col-md-2 col-md-offset-2 panel">
+            <table class="table">
+                <legend><img src="images/armybuilder/hobbit.png" alt="hobbit image" style="width:100%; max-width: 200px;" /></legend>
+                <tbody>
+                <tr>
+                    <td>coming soon...</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
+
     </div>
+
 </div>
 @stop
 
 
 <!-- Scripts like Javascript -->
 @section('scripts')
-<!-- Main Script -->
+<!-- Main Script
 <script src="js/armybuilder/functions.js"></script>
 <script src="js/armybuilder/page.js"></script>
 
-<!-- 40k scripts -->
+     40k scripts
 <script src="js/armybuilder/fourtyk/sororitas.js"></script>
 <script src="js/armybuilder/fourtyk/militarum.js"></script>
 <script src="js/armybuilder/fourtyk/bloodangels.js"></script>
@@ -189,7 +223,7 @@ Seg-Fault - Army Builder v0.0010
 <script src="js/armybuilder/fourtyk/tau.js"></script>
 <script src="js/armybuilder/fourtyk/tyranids.js"></script>
 
-<!-- Fantasy scripts -->
+     Fantasy scripts
 <script src="js/armybuilder/fantasy/beastmen.js"></script>
 <script src="js/armybuilder/fantasy/bretonnia.js"></script>
 <script src="js/armybuilder/fantasy/daemons.js"></script>
@@ -206,7 +240,7 @@ Seg-Fault - Army Builder v0.0010
 <script src="js/armybuilder/fantasy/warriors.js"></script>
 <script src="js/armybuilder/fantasy/woodelves.js"></script>
 
-<!-- Final scripts -->
+     Final scripts
 <script src="js/armybuilder/startup.js"></script>
-
+                   -->
 @stop

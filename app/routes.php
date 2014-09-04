@@ -67,6 +67,11 @@ Route::resource('angband3d', 'Angband3DController', ['only'=>['index']]);
 Route::get('/armybuilder', 'ArmyBuilderController@index');
 Route::resource('armybuilder', 'ArmyBuilderController', ['only'=>['index']]);
 
+Route::resource('sm', 'SpaceMarineController', ['only'=>['index']]);
+Route::resource('sw', 'SpaceWolvesController', ['only'=>['index']]);
+
+
+
 // Catch All Route
 App::missing(function() {
     return Redirect::to('/');

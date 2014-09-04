@@ -1,17 +1,4 @@
-$(document).ready(function () {
-    $('.dropdown-menu').mouseleave(function () {
-        $(".myFakeClass").dropdown('toggle');
-    });
-});
-
-// Global Variables
-var troopid = 49;
-var points = {};
-var tpoints = null;
-var used = 0;
-var left = 0;
-
-Number.prototype.formatMoney = function(c, d, t){
+Number.prototype.formatNum = function(c, d, t){
     var n = this,
         c = isNaN(c = Math.abs(c)) ? 2 : c,
         d = d == undefined ? "." : d,
@@ -22,7 +9,6 @@ Number.prototype.formatMoney = function(c, d, t){
     return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
 };
 
-/* Javascript for Survey Program */
 if (!String.prototype.fill) {
     String.prototype.fill = function () {
         var args = arguments;
@@ -103,6 +89,7 @@ if (!String.prototype.fill) {
 $(function () {
 
     var button = {};
+    var total = $('#input-total');
 
     listen('bind', function() {
 
@@ -112,12 +99,15 @@ $(function () {
 
         button.error.bind('click', function() {
             $(this).hide();
+            total.focus();
         });
         button.loading.bind('click', function() {
             $(this).hide();
+            total.focus();
         });
         button.success.bind('click', function() {
             $(this).hide();
+            total.focus();
         });
 
     });
@@ -154,4 +144,84 @@ $(function () {
         button.error.hide();
         button.success.hide();
     });
+});
+
+// Page System
+$(function() {
+
+    var ui = {};
+
+    var input = {};
+
+    listen('start', function() {
+
+        ui.top = $('#display-top');
+        ui.middle = $('#display-middle');
+        ui.bottom = $('#display-bottom');
+
+        input.total = $('#input-total');
+        input.used = $('#input-used');
+        input.left = $('#input-left');
+
+        input.total.keyup(function() {
+            var total = $(this).val();
+            var left = parseInt(input.left.val());
+            var used = parseInt(input.used.val());
+            ui.middle.hide();
+            ui.bottom.hide();
+            if(isNaN(total))
+            {
+                tell('alert.error', 'Your total points must be a positive number');
+                input.left.val(0);
+                ui.top.css({'box-shadow':'0px 0px 10px yellow'});
+                $(this).val('');
+                $(this).focus();
+            }
+            else
+            {
+                tell('alert.loading', 'Adjusting points...');
+
+                left = total - used;
+                if(left > 0)
+                {
+                    input.left.val(left);
+                    ui.middle.show();
+                    ui.bottom.show();
+                    tell('alert.success', 'Point adjustment complete!!!');
+                }
+                else
+                {
+                    tell('alert.error', 'You must enter a value larger than the points used');
+                    input.left.val(0);
+                    ui.top.css({'box-shadow':'0px 0px 10px yellow'});
+                    $(this).val('');
+                    $(this).focus();
+                }
+
+            }
+
+        });
+
+        ui.top.mouseenter(function() {
+            $(this).css({'box-shadow':'0px 0px 10px yellow'});
+            ui.middle.css({'box-shadow':'0px 0px 0px white'});
+            ui.bottom.css({'box-shadow':'0px 0px 0px white'});
+        });
+
+        ui.middle.mouseenter(function() {
+            $(this).css({'box-shadow':'0px 0px 10px yellow'});
+            ui.top.css({'box-shadow':'0px 0px 0px white'});
+            ui.bottom.css({'box-shadow':'0px 0px 0px white'});
+        });
+
+        ui.bottom.mouseenter(function() {
+            $(this).css({'box-shadow':'0px 0px 10px yellow'});
+            ui.middle.css({'box-shadow':'0px 0px 0px white'});
+            ui.top.css({'box-shadow':'0px 0px 0px white'});
+        });
+
+        input.total.focus();
+
+    });
+
 });
