@@ -1,6 +1,6 @@
 <?php
 
-class armybuilder/SpaceWolvesController extends \BaseController {
+class SpaceWolvesController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.

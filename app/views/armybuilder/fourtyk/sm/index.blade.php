@@ -19,11 +19,11 @@
 <li><a href="#">Commisar</a></li>
 @stop
 
-@section('nav-el')
+@section('nav-tr')
 <li><a href="#"></a></li>
 @stop
 
-@section('nav-tr')
+@section('nav-el')
 <li><a href="#"></a></li>
 @stop
 

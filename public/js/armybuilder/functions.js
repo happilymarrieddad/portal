@@ -153,15 +153,29 @@ $(function() {
 
     var input = {};
 
-    listen('start', function() {
+    var display = {};
+
+    listen('bind', function() {
 
         ui.top = $('#display-top');
         ui.middle = $('#display-middle');
         ui.bottom = $('#display-bottom');
 
+        ui.hq = $('#dropdown-hq');
+        ui.tr = $('#dropdown-tr');
+        ui.el = $('#dropdown-el');
+        ui.fa = $('#dropdown-fa');
+        ui.hs = $('#dropdown-hs');
+
         input.total = $('#input-total');
         input.used = $('#input-used');
         input.left = $('#input-left');
+
+        display.hq = $('#display-hq');
+        display.tr = $('#display-tr');
+        display.el = $('#display-el');
+        display.fa = $('#display-fa');
+        display.hs = $('#display-hs');
 
         input.total.keyup(function() {
             var total = $(this).val();
@@ -222,6 +236,99 @@ $(function() {
 
         input.total.focus();
 
+    }); // END BIND
+
+
+    listen('adjust-hq', function(val) {
+        var amt = parseInt(display.hq.val()) + parseInt(val);
+        display.hq.val(amt);
+        if(amt > 1)
+        {
+            ui.hq.hide();
+            display.hq.css('color', 'red');
+        }
+        else if(amt < 1)
+        {
+            display.hq.css('color', 'red');
+        }
+        else
+        {
+            ui.hq.show();
+            display.hq.css('color', 'black');
+        }
+    });
+    listen('adjust-tr', function(val) {
+        var amt = parseInt(display.tr.val()) + parseInt(val);
+        display.tr.val(amt);
+        if(amt > 5)
+        {
+            ui.tr.hide();
+            display.tr.css('color', 'red');
+        }
+        else if(amt < 2)
+        {
+            display.tr.css('color', 'red');
+        }
+        else
+        {
+            ui.tr.show();
+            display.tr.css('color', 'black');
+        }
+    });
+    listen('adjust-el', function(val) {
+        var amt = parseInt(display.el.val()) + parseInt(val);
+        display.el.val(amt);
+        if(amt > 2)
+        {
+            ui.el.hide();
+            display.el.css('color', 'red');
+        }
+        else
+        {
+            ui.el.show();
+            display.el.css('color', 'black');
+        }
+
+    });
+    listen('adjust-fa', function(val) {
+        var amt = parseInt(display.fa.val()) + parseInt(val);
+        display.fa.val(amt);
+        if(amt > 2)
+        {
+            ui.fa.hide();
+            display.fa.css('color', 'red');
+        }
+        else
+        {
+            ui.fa.show();
+            display.fa.css('color', 'black');
+        }
+    });
+    listen('adjust-hs', function(val) {
+        var amt = parseInt(display.hs.val()) + parseInt(val);
+        display.hs.val(amt);
+        if(amt > 2)
+        {
+            ui.hs.hide();
+            display.hs.css('color', 'red');
+        }
+        else
+        {
+            ui.hs.show();
+            display.hs.css('color', 'black');
+        }
+    });
+
+    listen('start', function() {
+        ui.top.show();
+    });
+
+    listen('append-ui-bottom', function(val) {
+        ui.bottom.append(val);
+    });
+
+    listen('clear-ui-bottom', function() {
+        ui.bottom.html('');
     });
 
 });

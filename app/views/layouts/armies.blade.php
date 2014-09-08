@@ -16,12 +16,21 @@
 
     <!-- Points Display --> <br />
     <div class="row">
-        <div class="col-md-10 col-md-offset-1 panel" id="display-top" style="box-shadow: 0px 0px 10px yellow">
-            <br /><div class="row">
+        <div class="col-md-10 col-md-offset-1 panel" id="display-top" style="box-shadow: 0px 0px 10px yellow; padding:20px; display:none">
+
+            <div class="row">
                 <div class="col-sm-2 col-sm-offset-5 text-center">
-                    <a href="/armybuilder" id="button-home">New Army</a>
+                    <a href="/armybuilder" class="btn btn-sm btn-primary" id="button-home">New Army</a><br />
                 </div>
-            </div><br />
+            </div><hr>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-5 text-center">
+                    <h4 class="" >Options</h4>
+                    <select id="organization-type">
+                        <option>Standard</option>
+                    </select>
+                </div>
+            </div>
             <div class="row text-center">
                 <div class="col-md-2 col-md-offset-1" style="padding:20px">
                     <div class="input-group">
@@ -42,6 +51,40 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <div class="input-group">
+                        <label for="display-hq">HQ</label>
+                        <input id="display-hq" type="number" size="1" class="form-control" value="0" style="color:red" readonly />
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <div class="input-group">
+                        <label for="display-tr">Troops</label>
+                        <input id="display-tr" type="number" size="1" class="form-control" value="0" style="color:red" readonly />
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <div class="input-group">
+                        <label for="display-el">Elites</label>
+                        <input id="display-el" type="number" size="1" class="form-control" value="0" readonly />
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <div class="input-group">
+                        <label for="display-fa">F Attack</label>
+                        <input id="display-fa" type="number" size="1" class="form-control" value="0" readonly />
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <div class="input-group">
+                        <label for="display-hs">H Support</label>
+                        <input id="display-hs" type="number" size="1" class="form-control" value="0" readonly />
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -62,31 +105,31 @@
                         <ul class="nav navbar-nav">
                             <!-- HQ -->
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">HQ <span class="carat"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-hq">HQ 1-2<span class="carat"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     @yield('nav-hq')
                                 </ul>
                             </li>
 
-                            <!-- Elites -->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elites <span class="carat"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    @yield('nav-el')
-                                </ul>
-                            </li>
-
                             <!-- Troops -->
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Troops <span class="carat"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-tr">Troops 2-6<span class="carat"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     @yield('nav-tr')
                                 </ul>
                             </li>
 
+                            <!-- Elites -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-el">Elites 0-3<span class="carat"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    @yield('nav-el')
+                                </ul>
+                            </li>
+
                             <!-- Fast Attack -->
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fast Attack <span class="carat"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-fa">Fast Attack 0-3<span class="carat"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     @yield('nav-fa')
                                 </ul>
@@ -94,9 +137,25 @@
 
                             <!-- Heavy Support -->
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Heavy Support <span class="carat"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown-hs">Heavy Support 0-3<span class="carat"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     @yield('nav-hs')
+                                </ul>
+                            </li>
+
+                            <!-- Fortification -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fortification <span class="carat"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    @yield('nav-fr')
+                                </ul>
+                            </li>
+
+                            <!-- Lords of War -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lords of War <span class="carat"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    @yield('nav-lw')
                                 </ul>
                             </li>
 
@@ -114,7 +173,7 @@
 
             <!-- Other Content goes here -->
             <div class="panel">
-
+                @yield('forms')
             </div>
 
         </div>
@@ -122,7 +181,6 @@
 
     <div class="row">
         <div class="col-md-10 col-md-offset-1 panel" id="display-bottom" style="padding: 20px; display: none">
-
         </div>
     </div>
 
