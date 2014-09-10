@@ -6,6 +6,9 @@
             </div>
             <div class="panel-body">
 
+
+                <br /><br /><button class="pull-right btn btn-info" id="button-add-unit-hq-wolflord">Add</button>
+
             </div>
         </div>
     </div>
