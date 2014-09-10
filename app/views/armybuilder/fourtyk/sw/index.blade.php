@@ -139,6 +139,18 @@
 
 @section('js')
 <script src="js/armybuilder/functions.js"></script>
-<script src="js/armybuilder/fourtyk/sw.js"></script>
+<script src="js/armybuilder/fourtyk/sw/sw.js"></script>
+<!-- HQ -->
+
+<!-- Troops -->
+<script src="js/armybuilder/fourtyk/sw/tr/blood.js" ></script>
+<script src="js/armybuilder/fourtyk/sw/tr/lukas.js" ></script>
+<script src="js/armybuilder/fourtyk/sw/tr/grey.js" ></script>
+
+<!-- Elites -->
+<!-- Fast Attack -->
+<!-- Heavy Support -->
+<!-- Lords of War -->
+
 <script src="js/armybuilder/startup.js"></script>
 @stop

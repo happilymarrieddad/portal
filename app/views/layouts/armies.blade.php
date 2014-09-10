@@ -181,6 +181,52 @@
 
     <div class="row">
         <div class="col-md-10 col-md-offset-1 panel" id="display-bottom" style="padding: 20px; display: none">
+
+            <h3 class="text-center">Army Builder</h3><br /><br />
+
+            <div id="display-bottom-low-div" style="display:none">
+                <h4>Lords of War</h4><br />
+                <div id="display-bottom-low">
+
+                </div>
+            </div><br />
+
+            <div id="display-bottom-hq-div" style="display:none">
+                <h4>HQ</h4><br />
+                <div id="display-bottom-hq">
+
+                </div>
+            </div><br />
+
+            <div id="display-bottom-troops-div" style="display:none">
+                <h4>Troops</h4><br />
+                <div id="display-bottom-troops">
+
+                </div>
+            </div><br />
+
+            <div id="display-bottom-elites-div" style="display:none">
+                <h4>Elites</h4><br />
+                <div id="display-bottom-elites">
+
+                </div>
+            </div><br />
+
+            <div id="display-bottom-fastattack-div" style="display:none">
+                <h4>Fast Attack</h4><br />
+                <div id="display-bottom-fastattack">
+
+                </div>
+            </div><br />
+
+            <div id="display-bottom-heavysupport-div" style="display:none">
+                <h4>Heavy Support</h4><br />
+                <div id="display-bottom-heavysupport">
+
+                </div>
+            </div><br />
+
+
         </div>
     </div>
 
