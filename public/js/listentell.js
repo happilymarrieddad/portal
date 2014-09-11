@@ -11,7 +11,7 @@ if (!String.prototype.fill) {
 
 // Listen/Tell System
 (function ($) {
-    var que = {}, debug = (location.hash == '#debug');
+    var que = {}, debug = true;
 
     function log() {
         if (!debug) return;

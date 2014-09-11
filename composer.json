@@ -15,7 +15,8 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		]
+		],
+        "psr-0": { "Segfault\\":"app/" }
 	},
 	"scripts": {
 		"post-install-cmd": [
