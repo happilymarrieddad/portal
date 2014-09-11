@@ -17,7 +17,7 @@ Route::resource('admin', 'AdminController', ['only'=>['index']]);
 // User Routes
 Route::get('/user/show/{id}', 'UserController@show');
 Route::get('/user/update/{id}', 'UserController@update');
-Route::resource('user', 'UserController', ['only'=>['show', 'update']]);
+Route::resource('user', 'UserController', ['only'=>['show', 'update', 'create', 'store']]);
 
 
 // Session Routes
@@ -26,5 +26,6 @@ Route::resource('session', 'SessionController', ['only'=>['create', 'store', 'de
 
 // Catch All Route
 App::missing(function() {
-    return Redirect::route('home.index');
+    if(Auth::check()) return Redirect::route('home.index');
+    else return Redirect::route('session.create');
 });

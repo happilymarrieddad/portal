@@ -11,34 +11,24 @@
                 <form action="#">
                     {{ Form::token() }}
                     <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" class="form-control" id="username" value="{{ $username }}" required>
+                    </div>
+                    <div class="form-group">
                         <label for="firstname">First Name</label>
-                        <input type="text" name="firstname" class="form-control" value="{{ $firstname }}">
-
-                        <p class="hidden input-error">This is a required field.</p>
+                        <input type="text" name="firstname" id="firstname" class="form-control" value="{{ $firstname }}" required>
                     </div>
                     <div class="form-group">
                         <label for="lastname">Last Name</label>
-                        <input type="text" class="form-control" name="lastname" value="{{ $lastname }}">
-
-                        <p class="hidden input-error">This is a required field.</p>
+                        <input type="text" class="form-control" name="lastname" value="{{ $lastname }}" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="text" class="form-control" name="email" value="{{ $email }}">
-
-                        <p class="hidden input-error">This is a required field.</p>
+                        <input type="text" class="form-control" name="email" value="{{ $email }}" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="text" class="form-control" name="phone" value="{{ $phone }}">
-
-                        <p class="hidden input-error">This is a required field.</p>
-                    </div>
-                    <div class="form-group">
-                        <label for="status">Status</label>
-                        <select name="status" id="status" class="form-control">
-                            <option value="Active">Active</option>
-                        </select>
+                        <label for="receive_emails">Receive Emails</label>
+                        <input type="checkbox" class="form-control" name="receive_email" id="receive_emails" @if({{ $receive_emails }}) checked @endif>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Save</button>
