@@ -1,4 +1,0 @@
-// Vampire Counts functions
-$(function() {
-
-});

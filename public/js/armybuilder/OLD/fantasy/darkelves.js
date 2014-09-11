@@ -1,4 +1,0 @@
-// Dark Elves functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Wood Elves functions
-$(function() {
-
-});

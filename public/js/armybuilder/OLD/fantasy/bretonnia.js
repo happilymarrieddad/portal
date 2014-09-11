@@ -1,4 +1,0 @@
-// Bretonnia functions
-$(function() {
-
-});

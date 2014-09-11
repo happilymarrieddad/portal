@@ -1,4 +1,0 @@
-// Chaos Daemons functions
-$(function() {
-
-});

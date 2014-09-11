@@ -1,4 +1,0 @@
-// Inquisition functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Tau Empire functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Eldar functions
-$(function() {
-
-});

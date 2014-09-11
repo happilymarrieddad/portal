@@ -1,4 +1,0 @@
-// Blood Angels functions
-$(function() {
-
-});

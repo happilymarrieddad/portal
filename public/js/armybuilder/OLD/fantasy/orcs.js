@@ -1,4 +1,0 @@
-// Orcs & Goblins functions
-$(function() {
-
-});

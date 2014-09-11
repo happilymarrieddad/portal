@@ -1,4 +1,0 @@
-// Dark Angels functions
-$(function() {
-
-});

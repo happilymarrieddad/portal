@@ -1,4 +1,0 @@
-// Tomb Kings functions
-$(function() {
-
-});

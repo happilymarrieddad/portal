@@ -1,4 +1,0 @@
-// Grey Knights functions
-$(function() {
-
-});

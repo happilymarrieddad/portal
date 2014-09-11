@@ -1,4 +1,0 @@
-// Space Wolves functions
-$(function() {
-
-});

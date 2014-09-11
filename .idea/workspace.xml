@@ -1,7 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="" />
+    <list default="true" id="846c6a86-751b-4d2f-bdd2-72eb293cfdfc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/AboutController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Angband3DController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ArmyBuilderController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ArticleController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/BuilderController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ErrorController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Java3DController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ProjectsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/SessionController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/TutorialsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/armybuilder/SpaceMarineController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/armybuilder/SpaceWolvesController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215758_create_articles_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215810_create_books_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215821_create_errors_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215833_create_feedback_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215851_create_java3d_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215903_create_news_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215938_create_projects_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_215951_create_roles_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220003_create_users_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220029_create_case_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220038_create_cpu_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220047_create_drive_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220057_create_hdd_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220109_create_monitor_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220124_create_motherboard_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220135_create_psu_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_19_220144_create_ram_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Article.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Book.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Cas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Cpu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Drive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Hdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Mb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Monitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Psu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Builder/Ram.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Dates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/JavaProjects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/News.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Project.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Role.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/about/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/angband3d/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/larmies/militarum/elites.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/larmies/militarum/fastattack.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/larmies/militarum/heavysupport.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/larmies/militarum/hq.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/larmies/militarum/troops.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/lfantasy.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/lfourtyk.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/rfantasy.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/OLD/rfourtyk.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sm/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/dreadnought.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/ironpriest.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/lonewolf.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/murderfang.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/servitors.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfguard.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfguardterms.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfscouts.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/droppod.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/fenwolves.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/landspeeders.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/razorback.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/rhino.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/skyclaws.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/stormwolf.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/swiftclaws.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/thunderwolfcal.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/crusader.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/landraider.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/longfangs.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/predator.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/redeemer.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/stormfang.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/vindicator.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/whirlwind.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/bjorn.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/blackmane.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/deathwolf.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/runepriest.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/stormcaller.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/ulrik.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolfborn.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolfguard.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolflord.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolfpriest.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/lordswar/grimnar.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/bloodclaws.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/greyhunters.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/lukas.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/armybuilder/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/article/create.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/article/edit.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/builder/create.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/error/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/error/show.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/1.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/10.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/11.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/2.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/3.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/4.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/5.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/6.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/7.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/8.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/java3d/projects/9.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/armies.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/armybuilder.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/default.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/projects.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/sessions.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/projects/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/session/create.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tutorials/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/create.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/edit.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/show.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/about.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/armybuilder/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/armybuilder/old/armybuilder.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/angband3d/BasicTerrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/40klogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sm-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/startup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/fourtyk/sw_files/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/hobbit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/armybuilder/warhammer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/beastmen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/bretonnia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/daemons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/darkelves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/dwarfs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/empire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/highelves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/lizardmen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/ogre.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/orcs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/skaven.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/tombkings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/vampire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/warriors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fantasy/woodelves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/assassinorum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/bloodangels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/chaosmarines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/daemons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/darkangels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/darkeldar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/eldar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/greyknights.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/imperialknights.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/inquisition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/militarum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/necrons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/orks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/sororitas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/spacemarines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/spacewolves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/tau.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/tempestus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/tyranids.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/OLD/page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/sm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/blood.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/grey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/lukas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/armybuilder/startup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/builder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/projects/p9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/Detector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/DeviceOrientationControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/EditorControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/FirstPersonControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/FlyControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/ImprovedNoise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/OculusControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/OrbitControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/OrthographicTrackballControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/PointerLockControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/Stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/THREEx.FullScreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/THREEx.KeyboardState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/THREEx.WindowResize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/TrackballControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/TransformControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/java3d/threejs/VRControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/tutorials.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/arjac.blade.php" afterPath="$PROJECT_DIR$/public/js/startup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="portal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,80 +247,7 @@
     <favorites_list name="portal" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sw.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/sw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="11" selection-start="3595" selection-end="3595" vertical-scroll-proportion="2.6096823" vertical-offset="0" max-vertical-offset="2280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wolflord.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolflord.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bjorn.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/bjorn.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blackmane.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/blackmane.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deathwolf.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/deathwolf.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="46" selection-start="5709" selection-end="5709" vertical-scroll-proportion="0.0" vertical-offset="1443" max-vertical-offset="2415">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bloodclaws.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/bloodclaws.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greyhunters.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/greyhunters.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="248" column="20" selection-start="14986" selection-end="15079" vertical-scroll-proportion="0.0" vertical-offset="3061" max-vertical-offset="3900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -108,9 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/js/armybuilder/fourtyk/tau.js" />
-        <option value="$PROJECT_DIR$/public/js/armybuilder/fourtyk/tyranids.js" />
-        <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/beastmen.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/bretonnia.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/daemons.js" />
         <option value="$PROJECT_DIR$/public/js/armybuilder/fantasy/darkelves.js" />
@@ -159,6 +308,9 @@
         <option value="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/bjorn.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/blackmane.blade.php" />
         <option value="$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/deathwolf.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/tutorials.js" />
+        <option value="$PROJECT_DIR$/public/js/listentell.js" />
+        <option value="$PROJECT_DIR$/public/js/startup.js" />
       </list>
     </option>
   </component>
@@ -260,77 +412,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourtyk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +444,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,11 +462,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,33 +480,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,157 +502,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourtyk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourtyk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="troops" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourtyk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armybuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fourtyk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angband3d" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -708,23 +614,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1445" y="23" width="1400" height="790" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.009708738" sideWeight="0.49928573" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27642858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27642858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.012482663" sideWeight="0.50047755" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.009708738" sideWeight="0.5007143" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.009708738" sideWeight="0.49952245" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -750,274 +656,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolfpriest.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/ulrik.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolfguard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/ironpriest.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/servitors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfscouts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/lonewolf.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/dreadnought.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/murderfang.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfguard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/wolfguardterms.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/elites/arjac.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/swiftclaws.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/rhino.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/razorback.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/droppod.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/stormwolf.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/thunderwolfcal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/fenwolves.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/skyclaws.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/fastattack/landspeeders.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/stormfang.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/longfangs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/vindicator.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/whirlwind.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/predator.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/landraider.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/crusader.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/heavysupport/redeemer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/lordswar/grimnar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/OLD/fourtyk/militarum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1022" column="41" selection-start="45353" selection-end="45375" vertical-scroll-proportion="0.13867489" vertical-offset="15240" max-vertical-offset="22950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/startup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/armybuilder/basic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="68" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.9830247" vertical-offset="413" max-vertical-offset="1245" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/functions.js">
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="9" selection-start="8346" selection-end="8346" vertical-scroll-proportion="1.2757353" vertical-offset="3609" max-vertical-offset="5085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/lukas.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="6" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.8636364" vertical-offset="390" max-vertical-offset="1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/blood.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="363" column="3" selection-start="14444" selection-end="14444" vertical-scroll-proportion="0.962169" vertical-offset="4682" max-vertical-offset="5535" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/grey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="3" selection-start="15321" selection-end="15321" vertical-scroll-proportion="0.9632353" vertical-offset="5019" max-vertical-offset="5895" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/tr/lukas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="338" selection-end="338" vertical-scroll-proportion="0.3404792" vertical-offset="0" max-vertical-offset="793" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="46" selection-start="5709" selection-end="5709" vertical-scroll-proportion="0.0" vertical-offset="1443" max-vertical-offset="2415">
+        <state line="10" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15861027" vertical-offset="0" max-vertical-offset="662">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/armies.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/startup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="0" selection-start="9578" selection-end="9578" vertical-scroll-proportion="4.2261906" vertical-offset="0" max-vertical-offset="3720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ProjectsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="-0.8371212" vertical-offset="813" max-vertical-offset="1605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/bloodclaws.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3765">
+        <state line="5" column="3" selection-start="68" selection-end="68" vertical-scroll-proportion="0.10932945" vertical-offset="0" max-vertical-offset="686">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/wolflord.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/listentell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="537" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/bjorn.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="540" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/troops/greyhunters.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="20" selection-start="14986" selection-end="15079" vertical-scroll-proportion="0.0" vertical-offset="3061" max-vertical-offset="3900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/armybuilder.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="10" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.96153843" vertical-offset="0" max-vertical-offset="915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/blackmane.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="546" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/armybuilder/fourtyk/sw/hq/deathwolf.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="220" selection-end="220" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/armybuilder/fourtyk/sw/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="11" selection-start="3595" selection-end="3595" vertical-scroll-proportion="2.6096823" vertical-offset="0" max-vertical-offset="2280">
-          <folding />
+        <state line="133" column="0" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.8469388" vertical-offset="1414" max-vertical-offset="2100">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

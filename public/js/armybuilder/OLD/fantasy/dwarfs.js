@@ -1,4 +1,0 @@
-// Dwarfs functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Imperial Knights functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Tyranids functions
-$(function() {
-
-});

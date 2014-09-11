@@ -80,7 +80,7 @@ $(function () {
 
     var button = {};
 
-    listen('start.bind', function() {
+    listen('bind', function() {
 
         button.error = $('#alert-error');
         button.loading = $('#alert-loading');
@@ -132,67 +132,3 @@ $(function () {
     });
 });
 
-
-// Article System
-$(function () {
-
-    var list = {};
-    var article;
-
-    listen('start.bind', function() {
-
-        list.ce = $('#computer-engineering li a');
-        list.se = $('#software-engineering li a');
-        article = $('#articles-page');
-
-        list.ce.bind('click', function(e) {
-            e.preventDefault();
-            tell('alert.loading', 'Loading article ' + $(this).html());
-            function res(res) {
-                if(!res[0]) tell('alert.error', res[1]);
-                else
-                {
-                    article.html(res[1]);
-                    tell('alert.success', 'Article loaded successfully!');
-                }
-            }
-            var map = {
-                id : $(this).data('id'),
-                name : $(this).html()
-            };
-            tell('server.get', ['article/show',map,res]);
-        });
-
-        list.se.bind('click', function(e) {
-            e.preventDefault();
-            tell('alert.loading', 'Loading article ' + $(this).html());
-            function res(res) {
-                if(!res[0]) tell('alert.error', res[1]);
-                else
-                {
-                    article.html(res[1]);
-                    tell('alert.success', 'Article loaded successfully!');
-                }
-            }
-            var map = {
-                id : $(this).data('id'),
-                name : $(this).html()
-            };
-            tell('server.get', ['article/show',map,res]);
-        });
-
-
-
-    });
-
-
-
-
-});
-
-
-// Startup
-$(function () {
-    tell('start.bind');
-    tell('alert.success', 'SPA loaded successfully!');
-});

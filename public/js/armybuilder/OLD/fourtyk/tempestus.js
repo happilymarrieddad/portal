@@ -1,4 +1,0 @@
-// Militarum Tempestus functions
-$(function() {
-
-});

@@ -1,4 +1,0 @@
-// Lizardmen functions
-$(function() {
-
-});

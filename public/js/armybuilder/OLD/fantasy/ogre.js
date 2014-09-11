@@ -1,4 +1,0 @@
-// Ogre Kingdoms functions
-$(function() {
-
-});

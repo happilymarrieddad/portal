@@ -1,4 +1,0 @@
-// High Elves functions
-$(function() {
-
-});

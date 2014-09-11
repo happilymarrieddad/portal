@@ -1,4 +1,0 @@
-// Skaven functions
-$(function() {
-
-});

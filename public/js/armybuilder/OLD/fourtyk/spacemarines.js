@@ -1,4 +1,0 @@
-// Space Marines functions
-$(function() {
-
-});

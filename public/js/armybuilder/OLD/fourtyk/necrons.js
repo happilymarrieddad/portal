@@ -1,4 +1,0 @@
-// Necrons functions
-$(function() {
-
-});
