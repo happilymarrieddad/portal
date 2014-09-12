@@ -103,7 +103,47 @@ class UserController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+        if($id=='profile')
+        {
+            $input = Input::all();
+
+            $validator = Validator::make(
+                array(
+                    'firstname'     => $input['firstname'],
+                    'lastname'      => $input['lastname'],
+                    'email'         => $input['email']
+                ),
+                array(
+                    'firstname'     => 'required|min:2|max:60',
+                    'lastname'      => 'required|min:2|max:60',
+                    'email'         => 'required|email'
+                )
+            );
+
+            if($validator->fails()) return Redirect::back()->withErrors($validator->messages())->withInput();
+
+            $user = User::find(Auth::id());
+            $user->firstname = $input['firstname'];
+            $user->lastname = $input['lastname'];
+            $user->email = $input['email'];
+            $user->updated_at = time();
+            try { if(isset($input['receive_emails'])) $user->receive_emails = true;
+            }catch(Exception $e) { $user->receive_emails = false; }
+
+            $user->save();
+
+            return Redirect::back();
+        }
+        else if($id=='password')
+        {
+            if(Input::get('password') != Input::get('password-confirm')) return Redirect::back()->withErrors(['errors'=> ['Passwords dont match']]);
+
+            $user = User::find(Auth::id());
+            $user->password = Hash::make(Input::get('password'));
+            $user->save();
+
+            return View::make('user.password')->withErrors(['errors'=>['Password saved successfully!']]);
+        }
 	}
 
 
@@ -115,7 +155,9 @@ class UserController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$user = User::find($id);
+        $user->delete();
+        return Redirect::back();
 	}
 
 

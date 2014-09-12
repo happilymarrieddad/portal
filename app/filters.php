@@ -42,9 +42,13 @@ Route::filter('auth', function()
 });
 
 Route::filter('admin', function(){
-
-
-
+    $admin = false;
+    $up = UserPermission::where('user_id', '=', Auth::id())->get();
+    foreach($up as $u)
+    {
+        if(Permission::find($u->permissions_id)->name == 'SuperAdmin' || Permission::find($u->permissions_id)->name == 'Admin') $admin = true;
+    }
+    if(!$admin) return Redirect::route('home.index');
 });
 
 

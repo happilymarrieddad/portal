@@ -8,11 +8,11 @@
         <div class="panel panel-default">
             <div class="panel-heading">Profile Data for {{ $username }}</div>
             <div class="panel-body">
-                <form action="#">
+                {{ Form::open(array('url'=>'/user/update/profile', 'method'=>'post')) }}
                     {{ Form::token() }}
                     <div class="form-group">
                         <label for="username">Username</label>
-                        <input type="text" name="username" class="form-control" id="username" value="{{ $username }}" required>
+                        <input type="text" name="username" class="form-control" id="username" value="{{ $username }}" readonly>
                     </div>
                     <div class="form-group">
                         <label for="firstname">First Name</label>
@@ -25,6 +25,10 @@
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="text" class="form-control" name="email" value="{{ $email }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="updated_at">Last Updated</label>
+                        <input type="text" class="form-control" value="{{date($updated_at)}}" readonly />
                     </div>
                     <div class="form-group">
                         <label for="receive_emails">Receive Emails</label>
@@ -40,11 +44,16 @@
                         </select>
                         @endif
                     </div>
+                    @if($errors->has())
+                        @foreach ($errors->all() as $error)
+                            <div style="color:red">{{ $error }}</div>
+                        @endforeach
+                    @endif
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Save</button>
                         <button type="reset" class="btn btn-default">Reset</button>
                     </div>
-                </form>
+                {{ Form::close() }}
             </div>
         </div>
     </div>

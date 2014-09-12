@@ -1,13 +1,13 @@
 <?php
 
-class AdminController extends \BaseController {
+class PermissionController extends \BaseController {
 
     public function __construct()
     {
-        $this->beforeFilter('admin', array('only' => array('create', 'show')));
+        $this->beforeFilter('admin', array('only' => array('store', 'destroy')));
     }
 
-	/**
+    /**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
@@ -25,7 +25,7 @@ class AdminController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('permissions.create');
+		//
 	}
 
 
@@ -36,7 +36,10 @@ class AdminController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$permission = new Permission();
+        $permission->name = Input::get('name');
+        $permission->save();
+        return Redirect::back();
 	}
 
 
@@ -48,8 +51,7 @@ class AdminController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		if($id == 'users') return View::make('admin.users');
-        else if($id == 'permissions') return View::make('permissions.edit');
+		//
 	}
 
 
@@ -85,7 +87,9 @@ class AdminController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+        $permission = Permission::find($id);
+        $permission->delete();
+        return Redirect::back();
 	}
 
 

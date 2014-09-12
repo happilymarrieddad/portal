@@ -42,7 +42,7 @@
             <!-- Right Navbar -->
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    {{ HTML::linkRoute('admin.index', 'Admin') }}
+                    @if($admin)<a href="/admin/show/users">Admin</a>@endif
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logged in as {{ $username }} <span class="caret"></span></a>

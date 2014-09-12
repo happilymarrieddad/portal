@@ -24,7 +24,7 @@ class SessionController extends \BaseController {
         $password = Input::get('password');
 
         if(Auth::attempt(array('username'=>$username, 'password'=>$password))) return Redirect::route('home.index');
-        else return Redirect::back()->withErrors(['messages'=>'Login failed... please try again!']);
+        else return Redirect::back()->withErrors(['errors'=>['Login failed... please try again!']]);
 	}
 
 

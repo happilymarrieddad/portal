@@ -25,8 +25,10 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" name="password" required>
                         </div>
-                        @if(isset($messages))
-                            <div style="color:red">{{ $messages }}</div>
+                        @if($errors->has())
+                            @foreach ($errors->all() as $error)
+                                <div style="color:red">{{ $error }}</div>
+                            @endforeach
                         @endif
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Login</button>

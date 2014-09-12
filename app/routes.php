@@ -11,13 +11,21 @@ Route::resource('about', 'AboutController', ['only'=>['index']]);
 
 
 // Admin Routes
-Route::resource('admin', 'AdminController', ['only'=>['index']]);
+Route::get('/admin/show/{id}', 'AdminController@show');
+Route::resource('admin', 'AdminController', ['only'=>['index', 'show']]);
+
+// Permission Routes
+Route::get('/permission/destroy/{id}', 'PermissionController@destroy');
+Route::get('/userpermissions/destroy/{uid}/{pid}', 'UserPermissionsController@destroy');
+Route::post('/userpermissions/store','UserPermissionsController@store');
+Route::resource('permission', 'PermissionController', ['only'=>['store', 'destroy']]);
 
 
 // User Routes
 Route::get('/user/show/{id}', 'UserController@show');
-Route::get('/user/update/{id}', 'UserController@update');
-Route::resource('user', 'UserController', ['only'=>['show', 'update', 'create', 'store']]);
+Route::post('/user/update/{id}', 'UserController@update');
+Route::get('/user/destroy/{id}', 'UserController@destroy');
+Route::resource('user', 'UserController', ['only'=>['show', 'update', 'create', 'store', 'destroy']]);
 
 
 // Session Routes

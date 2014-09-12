@@ -8,7 +8,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Change password for {{ $username }}</div>
             <div class="panel-body">
-                <form action="#">
+                {{ Form::open(array('url'=>'/user/update/password', 'method'=>'post')) }}
                     {{ Form::token() }}
                     <div class="form-group">
                         <label for="password">Password</label>
@@ -27,11 +27,16 @@
 
                         <p class="hidden input-error">This must match the above field</p>
                     </div>
+                    @if($errors->has())
+                        @foreach ($errors->all() as $error)
+                            <div style="color:red">{{ $error }}</div>
+                        @endforeach
+                    @endif
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Save</button>
                         <button type="reset" class="btn btn-default">Reset</button>
                     </div>
-                </form>
+                {{ Form::close() }}
             </div>
         </div>
     </div>

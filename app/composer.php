@@ -1,3 +1,3 @@
 <?php
 
-View::composer(['layouts.default', 'home.*', 'user.*'], 'Segfault\Composer\UserComposer');
+View::composer(['layouts.default', 'home.*', 'user.show', 'user.password', 'admin.*', 'permissions.*'], 'Segfault\Composer\UserComposer');

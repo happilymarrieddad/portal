@@ -12,7 +12,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Create A New User Account</div>
                 <div class="panel-body">
-                    {{ Form::open(array('route'=>'user.store', 'method'=>'post')) }}
+                {{ Form::open(array('route'=>'user.store', 'method'=>'post')) }}
                     {{ Form::token() }}
                     <div class="form-group">
                         <label for="username">Username</label>
