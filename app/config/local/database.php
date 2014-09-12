@@ -23,28 +23,6 @@ return array(
         'mysql' => array(
             'driver'    => 'mysql',
             'host'      => getenv('DB_HOST'),
-            'database'  => getenv('DB_MAIN'),
-            'username'  => getenv('DB_USERNAME'),
-            'password'  => getenv('DB_PASSWORD'),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-        ),
-
-        'builder' => array(
-            'driver'    => 'mysql',
-            'host'      => getenv('DB_HOST'),
-            'database'  => getenv('DB_BUILDER'),
-            'username'  => getenv('DB_USERNAME'),
-            'password'  => getenv('DB_PASSWORD'),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-        ),
-
-        'portal' => array(
-            'driver'    => 'mysql',
-            'host'      => getenv('DB_HOST'),
             'database'  => getenv('DB_PORTAL'),
             'username'  => getenv('DB_USERNAME'),
             'password'  => getenv('DB_PASSWORD'),
