@@ -9,7 +9,8 @@ class AboutController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+        // NEED TO BUILD ABOUT PAGE
+		return Redirect::route('home.index');
 	}
 
 

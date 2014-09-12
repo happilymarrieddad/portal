@@ -31,7 +31,42 @@ class UserController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$input = Input::all();
+        if($input['password'] != $input['password-confirm']) return Redirect::back()->withInput();
+
+        $validator = Validator::make(
+            array(
+                'username'      => $input['username'],
+                'password'      => $input['password'],
+                'firstname'     => $input['firstname'],
+                'lastname'      => $input['lastname'],
+                'email'         => $input['email']
+            ),
+            array(
+                'username'      => 'required|unique:users|min:4',
+                'password'      => 'required|min:8|max:60',
+                'firstname'     => 'required|min:2|max:60',
+                'lastname'      => 'required|min:2|max:60',
+                'email'         => 'required|email'
+            )
+        );
+
+        if($validator->fails()) return Redirect::back()->withErrors($validator->messages())->withInput();
+
+        $user = new User();
+        $user->username = $input['username'];
+        $user->password = Hash::make($input['password']);
+        $user->firstname = $input['firstname'];
+        $user->lastname = $input['lastname'];
+        $user->email = $input['email'];
+        $user->created_at = time();
+        $user->updated_at = time();
+        try { if(isset($input['receive_emails'])) $user->receive_emails = true;
+        }catch(Exception $e) { $user->receive_emails = false; }
+
+        $user->save();
+
+        return Redirect::route('session.create');
 	}
 
 

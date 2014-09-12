@@ -28,7 +28,17 @@
                     </div>
                     <div class="form-group">
                         <label for="receive_emails">Receive Emails</label>
-                        <input type="checkbox" class="form-control" name="receive_email" id="receive_emails" @if({{ $receive_emails }}) checked @endif>
+                        @if($receive_emails)
+                        <select id="receive_emails" name="receive_emails" >
+                            <option value="1" selected>Yes</option>
+                            <option value="0">No</option>
+                        </select>
+                        @else
+                        <select id="receive_emails" name="receive_emails" >
+                            <option value="1">Yes</option>
+                            <option value="0" selected>No</option>
+                        </select>
+                        @endif
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Save</button>

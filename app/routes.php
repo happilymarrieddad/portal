@@ -21,6 +21,7 @@ Route::resource('user', 'UserController', ['only'=>['show', 'update', 'create', 
 
 
 // Session Routes
+Route::get('/session/destroy', 'SessionController@destroy');
 Route::resource('session', 'SessionController', ['only'=>['create', 'store', 'destroy']]);
 
 

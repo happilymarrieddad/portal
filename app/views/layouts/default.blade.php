@@ -52,7 +52,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            {{ HTML::linkRoute('session.destroy', 'Logout') }}
+                            <a href="/session/destroy">Logout</a>
                         </li>
                     </ul>
                 </li>

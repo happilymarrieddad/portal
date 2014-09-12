@@ -43,10 +43,18 @@
                     </div>
                     <div class="form-group">
                         <label for="receive_emails">Receive Emails</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" name="receive_email" id="receive_emails">
+                        <select name="receive_emails" id="receive_emails">
+                            <option value="1">Yes</option>
+                            <option value="0" selected>No</option>
+                        </select>
                     </div>
+                    @if($errors->has())
+                        @foreach ($errors->all() as $error)
+                            <div style="color:red">{{ $error }}</div>
+                        @endforeach
+                    @endif
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="submit" class="btn btn-primary">Create</button>
                         <button type="reset" class="btn btn-default">Reset</button>
                         {{ HTML::linkRoute('session.create', 'Back to Login', array(), array('class'=>'pull-right')) }}
                     </div>

@@ -25,6 +25,9 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" name="password" required>
                         </div>
+                        @if(isset($messages))
+                            <div style="color:red">{{ $messages }}</div>
+                        @endif
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Login</button>
                             {{ HTML::linkRoute('user.create', 'Register a new account', array(), array('class'=>'pull-right')) }}

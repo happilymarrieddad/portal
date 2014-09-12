@@ -27,7 +27,7 @@ class CreatePermissionsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::dropColumn('permissions');
+		Schema::drop('permissions');
 	}
 
 }

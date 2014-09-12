@@ -24,7 +24,7 @@ class SessionController extends \BaseController {
         $password = Input::get('password');
 
         if(Auth::attempt(array('username'=>$username, 'password'=>$password))) return Redirect::route('home.index');
-        else ;
+        else return Redirect::back()->withErrors(['messages'=>'Login failed... please try again!']);
 	}
 
 
@@ -34,10 +34,9 @@ class SessionController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-
-
+        Auth::logout();
         return Redirect::route('session.create');
 	}
 
