@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local'      => array('nicks-mbp.pk5001z','administorsmbp2.pk5001z'),
+	'local'      => array('Nicks-MacBook-Pro.local'),
     'production' => array('ip-172-31-27-108')
 
 ));

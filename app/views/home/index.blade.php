@@ -40,7 +40,7 @@ Home Page
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center"><br />
             <span style="font-size:48px; color:orange; font-family: Arial">Segfault</span><br />
-            <span class="text-default" style="font-size: 24px; font-family: fantasy; color: red;">... Superior web development ...</span><br />
+            <span class="text-default" style="font-size: 24px; font-family: fantasy; color: red;">... Superior Web Development ...</span><br />
         </div>
     </div><br /><br /><br />
     <div class="row">
@@ -51,7 +51,7 @@ Home Page
                     <legend><h1>News</h1></legend>
                     <tbody>
                     @foreach($lists->reverse() as $list)
-                        <tr><td><h4 style="color: orange">[{{$list->id}}] - {{$list->type}} - {{$list->message}}</h4></td></tr>
+                        <tr><td><h4 style="color: blue">[{{$list->id}}] - {{$list->type}} - {{$list->message}}</h4></td></tr>
                     @endforeach
                     </tbody>
                 </table>
