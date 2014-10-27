@@ -179,17 +179,6 @@ Seg-Fault - Army Builder v0.0001
             </table>
         </div>
 
-        <div class="col-md-2 col-md-offset-2 panel">
-            <table class="table">
-                <legend><img src="images/armybuilder/hobbit.png" alt="hobbit image" style="width:100%; max-width: 200px;" /></legend>
-                <tbody>
-                <tr>
-                    <td>coming soon...</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-
     </div>
 
 </div>
