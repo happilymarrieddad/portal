@@ -160,7 +160,7 @@ $(function () {
                 id : $(this).data('id'),
                 name : $(this).html()
             };
-            tell('server.get', ['article/show',map,res]);
+            tell('server.get', ['computer/show',map,res]);
         });
 
         list.se.bind('click', function(e) {
@@ -178,7 +178,7 @@ $(function () {
                 id : $(this).data('id'),
                 name : $(this).html()
             };
-            tell('server.get', ['article/show',map,res]);
+            tell('server.get', ['software/show',map,res]);
         });
 
 
