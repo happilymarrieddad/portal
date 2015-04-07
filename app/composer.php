@@ -1,3 +1,3 @@
 <?php
 
-View::composer(['layouts.default'], 'composers\Composer\UserComposer');
+//View::composer(['layouts.default'], 'composers\Composer\UserComposer');
